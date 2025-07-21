@@ -35,7 +35,7 @@ Stellen Sie sicher, dass sich im Verzeichnis *tessdata* die Datei für die deuts
 ## Nutzung  
 **1.** Erstellen Sie einen OpenAI-Account. [OpenAI](https://platform.openai.com/signup)  
 
-**2.** Erstellen Sie nach der Registrierung eine Organisation und generieren Sie einen API-Schlüssel:  *Start building > Create organization*
+**2.** Erstellen Sie nach der Registrierung eine Organisation und generieren Sie einen API-Schlüssel:  *Start building > Create organization*.
 Folgen Sie den angezeigten Schritten bis *'Generate API Key'*.  
 
 **3.** Kopieren Sie den angezeigten API-Schlüssel und speichern Sie ihn an einem sicheren Ort.  
