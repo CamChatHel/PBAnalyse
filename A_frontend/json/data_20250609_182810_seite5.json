@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Holzleichtbau",
+        "baustelle_data[MESSBUERO]": "Müller-BBM",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "07.02.2018",
+        "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "Wand",
+            "pruef_bt_data[FLANKE_2]": "Wand",
+            "pruef_bt_data[FLANKE_3]": "Gesamtfassade",
+            "pruef_bt_data[FLANKE_4]": "Wand",
+            "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "2",
+            "pruef_bt_id[FLANKE_2_ID]": "2",
+            "pruef_bt_id[FLANKE_3_ID]": "6",
+            "pruef_bt_id[FLANKE_4_ID]": "2",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Wohnungstrennwaende in Holzrahmenbauweise/ Fensterfassade an Aussenwand",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke mit Holzdielenbelag (Holzdielenbelag auf schwimmendem Zementestrich- Schwerschüttung- Holzmassivdecke mit 4,5 cm Unterdecke)"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "Holz",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "Holz",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "Holz",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holz"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+        "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+        "pruef_raum_data[TRENNFLAECHE]": "-",
+        "pruef_raum_data[VOLUMENEMPFANG]": "115",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "115"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+        "messart_data[MESSART]": "Trittschalldaemmung",
+        "messart_data[M_ID]": "2",
+        "messart_data[PARAMETER]": "L'n",
+        "messart_data[PS_ID]": "5"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-",
+        "spectrum_data[C50B3150]": "-",
+        "spectrum_data[C50B5000]": "-",
+        "spectrum_data[CI50B2500]": "10",
+        "spectrum_data[CI]": "3",
+        "spectrum_data[CTR100B5000]": "-",
+        "spectrum_data[CTR50B3150]": "-",
+        "spectrum_data[CTR50B5000]": "-",
+        "spectrum_data[CTR]": "-",
+        "spectrum_data[C]": "-",
+        "spectrum_data[EINZAHLWERT]": "52"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "61.1",
+        "measurement_data[F0063]": "71.4",
+        "measurement_data[F0080]": "73.2",
+        "measurement_data[F0100]": "67.9",
+        "measurement_data[F0125]": "62.2",
+        "measurement_data[F0160]": "59.0",
+        "measurement_data[F0200]": "53.5",
+        "measurement_data[F0250]": "51.5",
+        "measurement_data[F0315]": "47.6",
+        "measurement_data[F0400]": "45.2",
+        "measurement_data[F0500]": "41.4",
+        "measurement_data[F0630]": "39.7",
+        "measurement_data[F0800]": "39.7",
+        "measurement_data[F1000]": "40.5",
+        "measurement_data[F1250]": "38.0",
+        "measurement_data[F1600]": "36.8",
+        "measurement_data[F2000]": "35.4",
+        "measurement_data[F2500]": "37.6",
+        "measurement_data[F3150]": "29.1",
+        "measurement_data[F4000]": "16.2",
+        "measurement_data[F5000]": "13.9"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "Müller-BBM",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "07.10.2016",
+        "pruef_gen_data[MESSRICHTUNG]": "-"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "Wand",
+            "pruef_bt_data[FLANKE_2]": "Decke",
+            "pruef_bt_data[FLANKE_3]": "Wand",
+            "pruef_bt_data[FLANKE_4]": "Decke",
+            "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "2",
+            "pruef_bt_id[FLANKE_2_ID]": "1",
+            "pruef_bt_id[FLANKE_3_ID]": "2",
+            "pruef_bt_id[FLANKE_4_ID]": "1",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "- Außenwand: 36,5 cm porosierter Hochlochziegel verputzt- Innenwände: 11,5 cm Ziegelmauerwerk- Decken: Parkettbelag, schwimmender Estrichaufbau, Stahlbetondecke",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Haustrennwand\r\n- 17,5 cm Planfüllziegelwand, verputzt- 6 cm Luftabstand- 17,5 cm Planfüllziegelwand, verputzt"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "Hochlochziegel",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "Mauerwerk",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Planfüllziegel"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "36.5",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "30",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "11.5",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "41"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+        "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+        "pruef_raum_data[TRENNFLAECHE]": "11.21",
+        "pruef_raum_data[VOLUMENEMPFANG]": "118",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "84"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Standard-Schallpegeldifferenz",
+        "messart_data[MESSART]": "Luftschalldaemmung",
+        "messart_data[M_ID]": "1",
+        "messart_data[PARAMETER]": "DnT",
+        "messart_data[PS_ID]": "3"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-3",
+        "spectrum_data[C50B3150]": "-4",
+        "spectrum_data[C50B5000]": "-3",
+        "spectrum_data[CI50B2500]": "-",
+        "spectrum_data[CI]": "-",
+        "spectrum_data[CTR100B5000]": "-9",
+        "spectrum_data[CTR50B3150]": "-9",
+        "spectrum_data[CTR50B5000]": "-9",
+        "spectrum_data[CTR]": "-9",
+        "spectrum_data[C]": "-4",
+        "spectrum_data[EINZAHLWERT]": "70"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "61.2",
+        "measurement_data[F0063]": "48.0",
+        "measurement_data[F0080]": "56.5",
+        "measurement_data[F0100]": "60.2",
+        "measurement_data[F0125]": "59.5",
+        "measurement_data[F0160]": "46.9",
+        "measurement_data[F0200]": "49.1",
+        "measurement_data[F0250]": "59.6",
+        "measurement_data[F0315]": "60.5",
+        "measurement_data[F0400]": "69.2",
+        "measurement_data[F0500]": "72.6",
+        "measurement_data[F0630]": "76.1",
+        "measurement_data[F0800]": "79.7",
+        "measurement_data[F1000]": "81.5",
+        "measurement_data[F1250]": "82.0",
+        "measurement_data[F1600]": "82.4",
+        "measurement_data[F2000]": "87.2",
+        "measurement_data[F2500]": "92.7",
+        "measurement_data[F3150]": "91.6",
+        "measurement_data[F4000]": "99.9",
+        "measurement_data[F5000]": "98.9"
+    }
+}

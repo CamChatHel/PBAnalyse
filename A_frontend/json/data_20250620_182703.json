@@ -1,0 +1,1025 @@
+{
+    "allgemeines": {
+        "baustelle_data": {
+            "baustelle_data[ANLASS]": "Anderer",
+            "baustelle_data[BAUJAHR]": "-",
+            "baustelle_data[BAUTYP]": "Andere",
+            "baustelle_data[MESSBUERO]": "ACCON GmbH",
+            "baustelle_data[ZUSTAND]": "-"
+        },
+        "land_data": {
+            "land_data[BUNDESLAND]": "Bayern",
+            "land_data[LAND]": "Deutschland"
+        }
+    },
+    "measurement": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "34",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "1",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "52"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "57.3",
+            "measurement_data[F0063]": "60.5",
+            "measurement_data[F0080]": "58.9",
+            "measurement_data[F0100]": "58.9",
+            "measurement_data[F0125]": "58.4",
+            "measurement_data[F0160]": "58.2",
+            "measurement_data[F0200]": "59.1",
+            "measurement_data[F0250]": "57.1",
+            "measurement_data[F0315]": "54.6",
+            "measurement_data[F0400]": "52.3",
+            "measurement_data[F0500]": "51.3",
+            "measurement_data[F0630]": "49.9",
+            "measurement_data[F0800]": "49.1",
+            "measurement_data[F1000]": "47.7",
+            "measurement_data[F1250]": "45.4",
+            "measurement_data[F1600]": "43.4",
+            "measurement_data[F2000]": "39.3",
+            "measurement_data[F2500]": "38.1",
+            "measurement_data[F3150]": "38.4",
+            "measurement_data[F4000]": "32.1",
+            "measurement_data[F5000]": "18.6"
+        }
+    },
+    "measurement_2": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "28.07.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "34",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "1",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "52"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "53.4",
+            "measurement_data[F0063]": "58.8",
+            "measurement_data[F0080]": "59.4",
+            "measurement_data[F0100]": "60.2",
+            "measurement_data[F0125]": "58.2",
+            "measurement_data[F0160]": "57.4",
+            "measurement_data[F0200]": "58.9",
+            "measurement_data[F0250]": "57.3",
+            "measurement_data[F0315]": "54.4",
+            "measurement_data[F0400]": "51.5",
+            "measurement_data[F0500]": "51.2",
+            "measurement_data[F0630]": "50.4",
+            "measurement_data[F0800]": "49.2",
+            "measurement_data[F1000]": "47.7",
+            "measurement_data[F1250]": "44.6",
+            "measurement_data[F1600]": "43.1",
+            "measurement_data[F2000]": "38.7",
+            "measurement_data[F2500]": "37.3",
+            "measurement_data[F3150]": "38.0",
+            "measurement_data[F4000]": "31.9",
+            "measurement_data[F5000]": "17.8"
+        }
+    },
+    "measurement_3": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "32",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "1",
+            "spectrum_data[CI]": "0",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "44"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "43.5",
+            "measurement_data[F0063]": "51.9",
+            "measurement_data[F0080]": "52.7",
+            "measurement_data[F0100]": "51.0",
+            "measurement_data[F0125]": "52.8",
+            "measurement_data[F0160]": "52.6",
+            "measurement_data[F0200]": "48.0",
+            "measurement_data[F0250]": "47.8",
+            "measurement_data[F0315]": "46.9",
+            "measurement_data[F0400]": "40.5",
+            "measurement_data[F0500]": "38.3",
+            "measurement_data[F0630]": "38.3",
+            "measurement_data[F0800]": "38.0",
+            "measurement_data[F1000]": "38.4",
+            "measurement_data[F1250]": "37.2",
+            "measurement_data[F1600]": "38.3",
+            "measurement_data[F2000]": "31.9",
+            "measurement_data[F2500]": "27.1",
+            "measurement_data[F3150]": "25.4",
+            "measurement_data[F4000]": "22.9",
+            "measurement_data[F5000]": "15.0"
+        }
+    },
+    "measurement_4": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "84",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "0",
+            "spectrum_data[CI]": "-3",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "59"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "70.3",
+            "measurement_data[F0063]": "64.7",
+            "measurement_data[F0080]": "61.7",
+            "measurement_data[F0100]": "61.7",
+            "measurement_data[F0125]": "58.4",
+            "measurement_data[F0160]": "61.1",
+            "measurement_data[F0200]": "63.3",
+            "measurement_data[F0250]": "62.4",
+            "measurement_data[F0315]": "61.7",
+            "measurement_data[F0400]": "59.6",
+            "measurement_data[F0500]": "58.3",
+            "measurement_data[F0630]": "56.3",
+            "measurement_data[F0800]": "56.4",
+            "measurement_data[F1000]": "58.3",
+            "measurement_data[F1250]": "57.3",
+            "measurement_data[F1600]": "55.2",
+            "measurement_data[F2000]": "51.5",
+            "measurement_data[F2500]": "47.8",
+            "measurement_data[F3150]": "45.2",
+            "measurement_data[F4000]": "38.5",
+            "measurement_data[F5000]": "23.2"
+        }
+    },
+    "measurement_5": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "23.11.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "84",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "1",
+            "spectrum_data[CI]": "-5",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "49"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "63.2",
+            "measurement_data[F0063]": "49.5",
+            "measurement_data[F0080]": "50.0",
+            "measurement_data[F0100]": "51.8",
+            "measurement_data[F0125]": "51.1",
+            "measurement_data[F0160]": "51.0",
+            "measurement_data[F0200]": "50.4",
+            "measurement_data[F0250]": "49.4",
+            "measurement_data[F0315]": "48.4",
+            "measurement_data[F0400]": "45.5",
+            "measurement_data[F0500]": "42.5",
+            "measurement_data[F0630]": "37.3",
+            "measurement_data[F0800]": "39.0",
+            "measurement_data[F1000]": "42.5",
+            "measurement_data[F1250]": "45.6",
+            "measurement_data[F1600]": "44.5",
+            "measurement_data[F2000]": "40.9",
+            "measurement_data[F2500]": "41.4",
+            "measurement_data[F3150]": "39.0",
+            "measurement_data[F4000]": "34.2",
+            "measurement_data[F5000]": "22.7"
+        }
+    },
+    "measurement_6": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "40",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "2",
+            "spectrum_data[CI]": "0",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "53"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "56.0",
+            "measurement_data[F0063]": "66.0",
+            "measurement_data[F0080]": "55.3",
+            "measurement_data[F0100]": "59.4",
+            "measurement_data[F0125]": "59.6",
+            "measurement_data[F0160]": "61.0",
+            "measurement_data[F0200]": "61.1",
+            "measurement_data[F0250]": "57.9",
+            "measurement_data[F0315]": "54.8",
+            "measurement_data[F0400]": "53.4",
+            "measurement_data[F0500]": "47.6",
+            "measurement_data[F0630]": "46.6",
+            "measurement_data[F0800]": "47.4",
+            "measurement_data[F1000]": "46.2",
+            "measurement_data[F1250]": "45.0",
+            "measurement_data[F1600]": "42.8",
+            "measurement_data[F2000]": "41.9",
+            "measurement_data[F2500]": "38.1",
+            "measurement_data[F3150]": "37.8",
+            "measurement_data[F4000]": "30.0",
+            "measurement_data[F5000]": "18.3"
+        }
+    },
+    "measurement_7": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "68",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "3",
+            "spectrum_data[CI]": "1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "53"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "60.0",
+            "measurement_data[F0063]": "61.2",
+            "measurement_data[F0080]": "63.5",
+            "measurement_data[F0100]": "65.7",
+            "measurement_data[F0125]": "58.0",
+            "measurement_data[F0160]": "59.1",
+            "measurement_data[F0200]": "57.8",
+            "measurement_data[F0250]": "57.7",
+            "measurement_data[F0315]": "56.6",
+            "measurement_data[F0400]": "54.4",
+            "measurement_data[F0500]": "50.6",
+            "measurement_data[F0630]": "48.7",
+            "measurement_data[F0800]": "51.0",
+            "measurement_data[F1000]": "49.8",
+            "measurement_data[F1250]": "46.0",
+            "measurement_data[F1600]": "41.2",
+            "measurement_data[F2000]": "37.2",
+            "measurement_data[F2500]": "36.5",
+            "measurement_data[F3150]": "38.8",
+            "measurement_data[F4000]": "29.2",
+            "measurement_data[F5000]": "14.9"
+        }
+    },
+    "measurement_8": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Standarddecke + Daemmunterlage HARO V-Tec DS unter Bodenbelag"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "-"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "68",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "4",
+            "spectrum_data[CI]": "1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "52"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "51.0",
+            "measurement_data[F0063]": "61.4",
+            "measurement_data[F0080]": "64.8",
+            "measurement_data[F0100]": "65.2",
+            "measurement_data[F0125]": "61.9",
+            "measurement_data[F0160]": "60.2",
+            "measurement_data[F0200]": "56.4",
+            "measurement_data[F0250]": "54.0",
+            "measurement_data[F0315]": "51.4",
+            "measurement_data[F0400]": "44.2",
+            "measurement_data[F0500]": "33.0",
+            "measurement_data[F0630]": "23.8",
+            "measurement_data[F0800]": "22.8",
+            "measurement_data[F1000]": "22.9",
+            "measurement_data[F1250]": "20.0",
+            "measurement_data[F1600]": "20.1",
+            "measurement_data[F2000]": "18.9",
+            "measurement_data[F2500]": "17.9",
+            "measurement_data[F3150]": "19.6",
+            "measurement_data[F4000]": "15.7",
+            "measurement_data[F5000]": "13.8"
+        }
+    },
+    "measurement_9": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "10.08.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Massivholzdecke mit Beschwerung und schwimmenden Zementestrich"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "68",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "1",
+            "spectrum_data[CI]": "-2",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "54"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "62.7",
+            "measurement_data[F0063]": "60.3",
+            "measurement_data[F0080]": "62.4",
+            "measurement_data[F0100]": "60.9",
+            "measurement_data[F0125]": "55.4",
+            "measurement_data[F0160]": "58.9",
+            "measurement_data[F0200]": "58.6",
+            "measurement_data[F0250]": "58.7",
+            "measurement_data[F0315]": "56.1",
+            "measurement_data[F0400]": "53.3",
+            "measurement_data[F0500]": "53.3",
+            "measurement_data[F0630]": "53.1",
+            "measurement_data[F0800]": "54.8",
+            "measurement_data[F1000]": "52.4",
+            "measurement_data[F1250]": "48.2",
+            "measurement_data[F1600]": "44.8",
+            "measurement_data[F2000]": "42.1",
+            "measurement_data[F2500]": "39.9",
+            "measurement_data[F3150]": "38.2",
+            "measurement_data[F4000]": "32.0",
+            "measurement_data[F5000]": "21.0"
+        }
+    },
+    "measurement_10": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "23.11.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Geschossdecke EG/1.OG, - Standarddecke + Daemmunterlage HARO V-Tec DS unter Bodenbelag"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "-"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "68",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "68"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "4",
+            "spectrum_data[CI]": "1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "47"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "57.9",
+            "measurement_data[F0063]": "58.2",
+            "measurement_data[F0080]": "57.3",
+            "measurement_data[F0100]": "56.3",
+            "measurement_data[F0125]": "52.7",
+            "measurement_data[F0160]": "56.4",
+            "measurement_data[F0200]": "57.5",
+            "measurement_data[F0250]": "51.8",
+            "measurement_data[F0315]": "46.4",
+            "measurement_data[F0400]": "38.8",
+            "measurement_data[F0500]": "33.7",
+            "measurement_data[F0630]": "27.2",
+            "measurement_data[F0800]": "27.0",
+            "measurement_data[F1000]": "24.4",
+            "measurement_data[F1250]": "19.9",
+            "measurement_data[F1600]": "16.1",
+            "measurement_data[F2000]": "14.1",
+            "measurement_data[F2500]": "14.0",
+            "measurement_data[F3150]": "17.2",
+            "measurement_data[F4000]": "13.3",
+            "measurement_data[F5000]": "10.0"
+        }
+    }
+}

@@ -1,0 +1,79 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Prüfprotokoll</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles_index.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script>
+
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <div id="loader"></div>
+
+    <h1>Upload Prüfprotokoll</h1>
+    <form id="uploadForm" action="/extract" method="post" enctype="multipart/form-data">
+        <h3>Bitte wählen Sie ein oder mehrere Prüfprotokolle aus und bestätigen Sie den Upload.</h3>
+        <p>Unterstützte Formate: PDF, XLS, XLSX</p>
+
+        <div id="drop-area">
+            <p>
+                <label for="fileInput" class="file-label"><strong>Datei auswählen</strong></label> oder <strong>hierhin ziehen</strong>
+            </p>
+            <input type="file" name="files" id="fileInput" accept=".pdf, .xls, .xlsx" multiple required style="display: none;">
+            <div id="file-list"></div>
+        </div>
+
+        <div id="pageSelection" style="display: none;">
+            <strong>Diese Prüfprotokolle sollen verarbeitet werden:</strong><br>
+            <input type="radio" name="page_range" value="all" checked> Alle<br>
+            <input type="radio" name="page_range" value="custom"> Seiten:
+            <input type="text" name="custom_pages" id="customPagesInput" placeholder="z. B. 1-3,5" disabled>
+        </div>
+
+        <div id="excelSheetSelection" style="display: none;">
+            <p><strong>Zu verarbeitende Tabellenblätter:</strong></p>
+            <div id="sheetCheckboxes"></div>
+        </div>
+
+        <div id="previewContainer" style="display: none;">
+            <strong>Seitenvorschau</strong><br>
+            <div id="thumbnails"></div>
+        </div>
+
+
+        <p id="is_onesite_container" style="display: none;">
+            <strong>Baustelle:</strong><br>
+            <input type="checkbox" class="check-box" name="is_onesite" id="is_onesite" value="true"
+                    {% if is_onesite %}checked{% endif %}>
+            <label for="is_onesite">Setzen Sie bitte einen Haken, wenn es sich bei den Protokollen um Messungen einer <strong>gleichen Baustelle</strong> handelt.</label>
+        </p>
+
+        <p id="is_scanned_container" style="display: none;">
+            <strong>Gescannte Dokumente:</strong><br>
+            <input type="checkbox" class="check-box" name="is_scanned" id="is_scanned">
+            <label for="is_scanned">Setzen Sie bitte einen Haken, wenn es sich um ein <strong>gescanntes Dokument</strong> handelt.</label>
+        </p>
+
+
+        <p><input type="submit" class="button" style="font-size: 15px; font-weight: bold;" value="Bestätigen"></p>
+        <p><strong>Hinweis:</strong><br> Es werden keine vertraulichen Daten gespeichert.</p>
+    </form>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script_index.js') }}"></script>
+
+<script>
+  Fancybox.bind("[data-fancybox='pdf-preview']");
+
+</script>
+
+</body>
+</html>

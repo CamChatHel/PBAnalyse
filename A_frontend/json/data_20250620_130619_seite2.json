@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "2020",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "Müller-BBM",
+        "baustelle_data[ZUSTAND]": "Neubau"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "06.10.2020",
+        "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "Wand",
+            "pruef_bt_data[FLANKE_2]": "Gesamtfassade",
+            "pruef_bt_data[FLANKE_3]": "-",
+            "pruef_bt_data[FLANKE_4]": "-",
+            "pruef_bt_data[TRENNBAUTEIL]": "Gesamtfassade"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "-",
+            "pruef_bt_id[FLANKE_2_ID]": "-",
+            "pruef_bt_id[FLANKE_3_ID]": "-",
+            "pruef_bt_id[FLANKE_4_ID]": "-",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "6"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Fassadenelement bestehend aus Fensterelement und einem Rolladenkasten mit integriertem Luefungselement - Kunststoff-Fensterelement (B x H = 1,95 m x 2,28 m): - Dreh-Kippfluegel mit einem Falz, einer Lippendichtungsebene, 2 Baender und 12 Verriegelungen - Drehfluegel (Anschlagfluegel) mit einem Falz, einer Lippendichtungsebene, 2 Baender und 10 Verriegelungen, Mittelanschlag mit einem Falz und einer Lippendichtungsebene - Glasaufbau: innen: 6 mm, SZR 12 mm, mitte: 4 mm, SZR: 12 mm, aussen: 8 mm ⦁ Kunststoffrahmen mit einem Falz und einer Hohlkammerdichtungsebene ⦁ Aussenseitig mit Prallscheibe (Bruestungselement) (B x H = 1,95 m x 1,00 m), Glasaufbau: 16 mm ⦁ aufgesetzter Rollladenkasten (B x H = 1,95 m x 20 cm) mit integriertem Lueftungselement ⦁ Stahlbetonwand mit WDVS"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Kunststoff"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+        "pruef_raum_data[SENDERAUM]": "-",
+        "pruef_raum_data[TRENNFLAECHE]": "8.90",
+        "pruef_raum_data[VOLUMENEMPFANG]": "30",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass Fassadenbauteil",
+        "messart_data[MESSART]": "Schalldaemmung Fassadenbauteil",
+        "messart_data[M_ID]": "3",
+        "messart_data[PARAMETER]": "R'45°",
+        "messart_data[PS_ID]": "7"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-2",
+        "spectrum_data[C50B3150]": "-3",
+        "spectrum_data[C50B5000]": "-2",
+        "spectrum_data[CI50B2500]": "-",
+        "spectrum_data[CI]": "-",
+        "spectrum_data[CTR100B5000]": "-8",
+        "spectrum_data[CTR50B3150]": "-8",
+        "spectrum_data[CTR50B5000]": "-8",
+        "spectrum_data[CTR]": "-8",
+        "spectrum_data[C]": "-3",
+        "spectrum_data[EINZAHLWERT]": "43"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "28.6",
+        "measurement_data[F0063]": "37.6",
+        "measurement_data[F0080]": "36.1",
+        "measurement_data[F0100]": "19.3",
+        "measurement_data[F0125]": "28.1",
+        "measurement_data[F0160]": "25.6",
+        "measurement_data[F0200]": "35.4",
+        "measurement_data[F0250]": "26.2",
+        "measurement_data[F0315]": "35.9",
+        "measurement_data[F0400]": "41.9",
+        "measurement_data[F0500]": "42.0",
+        "measurement_data[F0630]": "44.1",
+        "measurement_data[F0800]": "43.1",
+        "measurement_data[F1000]": "48.3",
+        "measurement_data[F1250]": "48.7",
+        "measurement_data[F1600]": "48.9",
+        "measurement_data[F2000]": "46.1",
+        "measurement_data[F2500]": "44.1",
+        "measurement_data[F3150]": "45.3",
+        "measurement_data[F4000]": "48.6",
+        "measurement_data[F5000]": "56.6"
+    }
+}

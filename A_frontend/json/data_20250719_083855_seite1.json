@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "ig-bauphysik GmbH & Co. KG",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "-",
+        "land_data[LAND]": "-"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "Fuer bauakustische Messungen wurden 4 Stufen wie vorgesehen montiert."
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "11.07.2019",
+        "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "-",
+            "pruef_bt_data[FLANKE_2]": "-",
+            "pruef_bt_data[FLANKE_3]": "-",
+            "pruef_bt_data[FLANKE_4]": "-",
+            "pruef_bt_data[TRENNBAUTEIL]": "Treppenlauf"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "-",
+            "pruef_bt_id[FLANKE_2_ID]": "-",
+            "pruef_bt_id[FLANKE_3_ID]": "-",
+            "pruef_bt_id[FLANKE_4_ID]": "-",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "7"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Stahltraegertreppe mit aufgesetzten Trittstufen (augenscheinlich elastische Lager zwischen Stufen und Stahltraeger) Stahltraeger an drei Punkten in den Aussenwaenden, und an einem Punkt in einer Innenwand angeschlossen Augenscheinlich entkoppelte Fusspunktlagerung auf dem schwimmenden Estrich - m²"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahl"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+        "pruef_raum_data[SENDERAUM]": "Nebenraum",
+        "pruef_raum_data[TRENNFLAECHE]": "-",
+        "pruef_raum_data[VOLUMENEMPFANG]": "28",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "28"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+        "messart_data[MESSART]": "Trittschalldaemmung",
+        "messart_data[M_ID]": "2",
+        "messart_data[PARAMETER]": "L'n",
+        "messart_data[PS_ID]": "5"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-",
+        "spectrum_data[C50B3150]": "-",
+        "spectrum_data[C50B5000]": "-",
+        "spectrum_data[CI50B2500]": "2",
+        "spectrum_data[CI]": "1",
+        "spectrum_data[CTR100B5000]": "-",
+        "spectrum_data[CTR50B3150]": "-",
+        "spectrum_data[CTR50B5000]": "-",
+        "spectrum_data[CTR]": "-",
+        "spectrum_data[C]": "-",
+        "spectrum_data[EINZAHLWERT]": "45"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "40.4",
+        "measurement_data[F0063]": "49.2",
+        "measurement_data[F0080]": "56.3",
+        "measurement_data[F0100]": "50.7",
+        "measurement_data[F0125]": "52.2",
+        "measurement_data[F0160]": "57.0",
+        "measurement_data[F0200]": "54.6",
+        "measurement_data[F0250]": "48.3",
+        "measurement_data[F0315]": "36.1",
+        "measurement_data[F0400]": "38.0",
+        "measurement_data[F0500]": "38.7",
+        "measurement_data[F0630]": "42.2",
+        "measurement_data[F0800]": "42.1",
+        "measurement_data[F1000]": "37.7",
+        "measurement_data[F1250]": "36.2",
+        "measurement_data[F1600]": "28.6",
+        "measurement_data[F2000]": "28.2",
+        "measurement_data[F2500]": "25.8",
+        "measurement_data[F3150]": "21.5",
+        "measurement_data[F4000]": "14.1",
+        "measurement_data[F5000]": "8.3"
+    }
+}

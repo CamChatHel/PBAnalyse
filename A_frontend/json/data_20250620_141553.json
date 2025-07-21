@@ -1,0 +1,621 @@
+{
+    "allgemeines": {
+        "baustelle_data": {
+            "baustelle_data[ANLASS]": "Anderer",
+            "baustelle_data[BAUJAHR]": "-",
+            "baustelle_data[BAUTYP]": "Andere",
+            "baustelle_data[MESSBUERO]": "Müller-BBM",
+            "baustelle_data[ZUSTAND]": "Neubau"
+        },
+        "land_data": {
+            "land_data[BUNDESLAND]": "Bayern",
+            "land_data[LAND]": "Deutschland"
+        }
+    },
+    "measurement": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "06.02.2017",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Decke",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "1",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: Stahlbetonwand - Flurwand: 100 mm Gipskartonstaenderwand (Knauf W112 o.glw.) - Decken: Stahlbetondecken",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Hotelzimmertrennwand - 155 mm GK-Doppelstaenderwand (Knauf W115 o.glw.), beidseitig Beplankung mit 2 x 12,5 mm Piano F, Staenderwerk 2 x 50 mm, Daemmung 2 x 40 mm MW - Trennwand beidseitig mit je 22 Elektrodosen"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ B",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Gipskarton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "15.5"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[SENDERAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[TRENNFLAECHE]": "18.17",
+            "pruef_raum_data[VOLUMENEMPFANG]": "46",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "62"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "R'",
+            "messart_data[PS_ID]": "4"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-1",
+            "spectrum_data[C50B3150]": "-8",
+            "spectrum_data[C50B5000]": "-7",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-7",
+            "spectrum_data[CTR50B3150]": "-19",
+            "spectrum_data[CTR50B5000]": "-19",
+            "spectrum_data[CTR]": "-7",
+            "spectrum_data[C]": "-2",
+            "spectrum_data[EINZAHLWERT]": "56"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "19.4",
+            "measurement_data[F0063]": "16.6",
+            "measurement_data[F0080]": "21.2",
+            "measurement_data[F0100]": "36.5",
+            "measurement_data[F0125]": "39.0",
+            "measurement_data[F0160]": "37.0",
+            "measurement_data[F0200]": "41.2",
+            "measurement_data[F0250]": "46.2",
+            "measurement_data[F0315]": "48.2",
+            "measurement_data[F0400]": "50.8",
+            "measurement_data[F0500]": "54.0",
+            "measurement_data[F0630]": "55.2",
+            "measurement_data[F0800]": "58.1",
+            "measurement_data[F1000]": "58.8",
+            "measurement_data[F1250]": "60.7",
+            "measurement_data[F1600]": "61.3",
+            "measurement_data[F2000]": "61.4",
+            "measurement_data[F2500]": "63.5",
+            "measurement_data[F3150]": "65.6",
+            "measurement_data[F4000]": "70.5",
+            "measurement_data[F5000]": "73.4"
+        }
+    },
+    "measurement_2": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "06.02.2017",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Decke",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "1",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Hotelzimmertrennwaende: 155 mm GK-Doppelstaenderwaende (Knauf W115 o.glw.) - Decken: Stahlbetondecken ohne Bodenaufbau",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Flurwand mit provisorischer Tuerabdeckung - 100 mm GK-Einfachstaenderwand (Knauf W112 o.glw.), beidseitig Beplankung mit 12,5 mm Diamant und 12,5 mm Silentboard, Staenderwerk 1 x 50 mm, Daemmung 40 mm MW - die Tueroeffnung wurde provosorisch beidseitig mit je 2 x 12,5 mm Gipskartonplatten abgedeckt. Der Hohlraum im Bereich der Tuerlaibung wurde mit Mineralwolle bedaempft"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ B",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Gipskarton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "15.5",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "15.5",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "10"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[SENDERAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[TRENNFLAECHE]": "6.68",
+            "pruef_raum_data[VOLUMENEMPFANG]": "61",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "40"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Schallpegeldifferenz",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "Dn",
+            "messart_data[PS_ID]": "2"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "0",
+            "spectrum_data[C50B3150]": "-3",
+            "spectrum_data[C50B5000]": "-2",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-5",
+            "spectrum_data[CTR50B3150]": "-13",
+            "spectrum_data[CTR50B5000]": "-13",
+            "spectrum_data[CTR]": "-5",
+            "spectrum_data[C]": "-1",
+            "spectrum_data[EINZAHLWERT]": "52"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "18.2",
+            "measurement_data[F0063]": "20.2",
+            "measurement_data[F0080]": "27.7",
+            "measurement_data[F0100]": "40.6",
+            "measurement_data[F0125]": "39.1",
+            "measurement_data[F0160]": "36.6",
+            "measurement_data[F0200]": "39.5",
+            "measurement_data[F0250]": "39.4",
+            "measurement_data[F0315]": "42.5",
+            "measurement_data[F0400]": "50.7",
+            "measurement_data[F0500]": "51.5",
+            "measurement_data[F0630]": "52.5",
+            "measurement_data[F0800]": "53.0",
+            "measurement_data[F1000]": "54.0",
+            "measurement_data[F1250]": "55.1",
+            "measurement_data[F1600]": "54.5",
+            "measurement_data[F2000]": "56.4",
+            "measurement_data[F2500]": "59.3",
+            "measurement_data[F3150]": "62.1",
+            "measurement_data[F4000]": "64.4",
+            "measurement_data[F5000]": "66.1"
+        }
+    },
+    "measurement_3": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "02.07.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Decke",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "1",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Hotelzimmertrennwaende: Eine Stahlbetonwand und eine 155 mm GK-Doppelstaenderwand (Knauf W115 o. glw.) - Decken: Stahlbetondecken, schwimmender Estrichaufbau mit Trittschalldaemmung",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Flurwand mit Tuerelement - Messsung im vorgefundenen Zustand - Flurwand (S = B x H = 1,66 m x 2,21 m = 3,67 m² mit Tuerelement): - 100 mm GK-Einfachstaenderwand (Knauf W112 o. glw.) beidseitig mit 12,5 mm Diamant und 12,5 mm Silentboard, Staenderwerk 50 mm, Daemmung 40 mm MW Tuerelement mit automatischem Obertuerschliesser (S = B x H = 0,90 m x 2,10 m): - Schoerghuber Spezialtueren Werk1, P.3436/3741-1, MPA BS RS-1 SD37 \"FORM-Rauchschutztuer 3N-RS\" Mod. 13N, DIN 18095 Ueberwacht D. HFM 2018, - 50 mm dickes stumpf anschlagenden Holztuerblatt mit zwei Baendern und einer Absenkdichtung auf Vinylbelag absenken - Stahlzarge einfach gefalzt mit einer Lippendichtungsebene"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ B",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Gipskarton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "15.5",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "10"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "3.67",
+            "pruef_raum_data[VOLUMENEMPFANG]": "51",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "49"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "R'",
+            "messart_data[PS_ID]": "4"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "0",
+            "spectrum_data[C50B3150]": "0",
+            "spectrum_data[C50B5000]": "0",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "0",
+            "spectrum_data[CTR50B3150]": "-1",
+            "spectrum_data[CTR50B5000]": "-1",
+            "spectrum_data[CTR]": "0",
+            "spectrum_data[C]": "0",
+            "spectrum_data[EINZAHLWERT]": "30"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "15.9",
+            "measurement_data[F0063]": "27.1",
+            "measurement_data[F0080]": "23.3",
+            "measurement_data[F0100]": "29.4",
+            "measurement_data[F0125]": "29.8",
+            "measurement_data[F0160]": "33.3",
+            "measurement_data[F0200]": "29.6",
+            "measurement_data[F0250]": "29.6",
+            "measurement_data[F0315]": "31.1",
+            "measurement_data[F0400]": "31.6",
+            "measurement_data[F0500]": "31.6",
+            "measurement_data[F0630]": "32.4",
+            "measurement_data[F0800]": "30.9",
+            "measurement_data[F1000]": "30.3",
+            "measurement_data[F1250]": "30.5",
+            "measurement_data[F1600]": "28.4",
+            "measurement_data[F2000]": "26.9",
+            "measurement_data[F2500]": "28.6",
+            "measurement_data[F3150]": "31.2",
+            "measurement_data[F4000]": "31.8",
+            "measurement_data[F5000]": "30.9"
+        }
+    },
+    "measurement_4": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.04.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "- Anregung mit dem Norm-Hammerwerk auf den Trittstufen 2, 3, 4, 5 und 6 von unten nach oben"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Treppenlauf"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "7"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: Stahlbetonwand mit WDVS - Hotelzimmmertrennwand: Stahlbetonwand - Flurwaende: Gipskartonstaenderwaende",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Treppenlauf ohne Oberbelag zwischen Treppenpodest und 1. OG - gewendelter Betonfertigteil-Treppenlauf ohne Oberbelag, elastisch gelagert "
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Beton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "45",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "80"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "-3",
+            "spectrum_data[CI]": "-3",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "34"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "34.3",
+            "measurement_data[F0063]": "31.8",
+            "measurement_data[F0080]": "32.7",
+            "measurement_data[F0100]": "31.4",
+            "measurement_data[F0125]": "36.5",
+            "measurement_data[F0160]": "36.4",
+            "measurement_data[F0200]": "33.6",
+            "measurement_data[F0250]": "35.7",
+            "measurement_data[F0315]": "37.5",
+            "measurement_data[F0400]": "32.0",
+            "measurement_data[F0500]": "38.2",
+            "measurement_data[F0630]": "33.8",
+            "measurement_data[F0800]": "30.2",
+            "measurement_data[F1000]": "29.1",
+            "measurement_data[F1250]": "28.1",
+            "measurement_data[F1600]": "29.0",
+            "measurement_data[F2000]": "27.1",
+            "measurement_data[F2500]": "27.1",
+            "measurement_data[F3150]": "22.7",
+            "measurement_data[F4000]": "19.4",
+            "measurement_data[F5000]": "15.4"
+        }
+    },
+    "measurement_5": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "06.07.2017",
+            "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Fenster"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "4"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "- Aussenwand: Stahlbetonwand",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Fensterelement mit geoeffnetem Lueftungselement - S = 2,12 m x 2,02 m = 4,28 m²): - Metallfensterelement mit einem Drehfluegel, einem Dreh-Kippfluegel und einem festverglastem Bruestungselement und einem geoeffnetem Lueftungselement der Firma Foerch - Dreh-Kippfluegel mit 3 Dichtungsebenen und 3 Verriegelungen - Kippfluegel mit 3 Dichtungsebenen und 2 Verriegelungen - Glasaufbau: VSG 12 mm 0,76 Phon Suncool 70/40 Neutral, SZR 14 mm Chromatech Ultra, ESG 6 mm, SZR 14 mm Chromatech Ultra, Optiphon 8,8 L, 9mm besch. - Lueftungselement Firma Foerch (S = Hoehe x Breite = 100 mm x 1400 mm) - Aussenwand: Stahlbetonwand"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Metall"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "4.28",
+            "pruef_raum_data[VOLUMENEMPFANG]": "65",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass Fassadenbauteil",
+            "messart_data[MESSART]": "Schalldaemmung Fassadenbauteil",
+            "messart_data[M_ID]": "3",
+            "messart_data[PARAMETER]": "R'45°",
+            "messart_data[PS_ID]": "7"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "0",
+            "spectrum_data[C50B3150]": "-1",
+            "spectrum_data[C50B5000]": "0",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-3",
+            "spectrum_data[CTR50B3150]": "-4",
+            "spectrum_data[CTR50B5000]": "-4",
+            "spectrum_data[CTR]": "-3",
+            "spectrum_data[C]": "-1",
+            "spectrum_data[EINZAHLWERT]": "38"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "19.9",
+            "measurement_data[F0063]": "31.3",
+            "measurement_data[F0080]": "26.8",
+            "measurement_data[F0100]": "29.8",
+            "measurement_data[F0125]": "31.8",
+            "measurement_data[F0160]": "26.4",
+            "measurement_data[F0200]": "27.7",
+            "measurement_data[F0250]": "29.0",
+            "measurement_data[F0315]": "27.6",
+            "measurement_data[F0400]": "31.9",
+            "measurement_data[F0500]": "37.4",
+            "measurement_data[F0630]": "39.7",
+            "measurement_data[F0800]": "37.2",
+            "measurement_data[F1000]": "41.0",
+            "measurement_data[F1250]": "44.0",
+            "measurement_data[F1600]": "39.5",
+            "measurement_data[F2000]": "36.2",
+            "measurement_data[F2500]": "46.7",
+            "measurement_data[F3150]": "50.6",
+            "measurement_data[F4000]": "50.4",
+            "measurement_data[F5000]": "46.3"
+        }
+    },
+    "measurement_6": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "06.07.2017",
+            "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Fenster"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "4"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "- Aussenwand: Stahlbetonwand",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Fensterelement mit geschlossenem Lueftungselement - S = 2,12 m x 2,02 m = 4,28 m²): - Metallfensterelement mit einem Drehfluegel, einem Dreh-Kippfluegel und einem festverglastem Bruestungselement und einem geoeffnetem Lueftungselement der Firma Foerch - Dreh-Kippfluegel mit 3 Dichtungsebenen und 3 Verriegelungen - Kippfluegel mit 3 Dichtungsebenen und 2 Verriegelungen - Glasaufbau: VSG 12 mm 0,76 Phon Suncool 70/40 Neutral, SZR 14 mm Chromatech Ultra, ESG 6 mm, SZR 14 mm Chromatech Ultra, Optiphon 8,8 L, 9mm besch. - Lueftungselement Firma Foerch (S = Hoehe x Breite = 100 mm x 1400 mm) - Aussenwand: Stahlbetonwand"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Metall"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Uebernachtungsraum in NWG",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "4.28",
+            "pruef_raum_data[VOLUMENEMPFANG]": "65",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass Fassadenbauteil",
+            "messart_data[MESSART]": "Schalldaemmung Fassadenbauteil",
+            "messart_data[M_ID]": "3",
+            "messart_data[PARAMETER]": "R'45°",
+            "messart_data[PS_ID]": "7"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "0",
+            "spectrum_data[C50B3150]": "-1",
+            "spectrum_data[C50B5000]": "-1",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-4",
+            "spectrum_data[CTR50B3150]": "-4",
+            "spectrum_data[CTR50B5000]": "-4",
+            "spectrum_data[CTR]": "-4",
+            "spectrum_data[C]": "-1",
+            "spectrum_data[EINZAHLWERT]": "40"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "20.1",
+            "measurement_data[F0063]": "36.0",
+            "measurement_data[F0080]": "33.3",
+            "measurement_data[F0100]": "33.3",
+            "measurement_data[F0125]": "31.1",
+            "measurement_data[F0160]": "27.4",
+            "measurement_data[F0200]": "29.9",
+            "measurement_data[F0250]": "30.1",
+            "measurement_data[F0315]": "29.6",
+            "measurement_data[F0400]": "36.0",
+            "measurement_data[F0500]": "41.0",
+            "measurement_data[F0630]": "40.1",
+            "measurement_data[F0800]": "38.1",
+            "measurement_data[F1000]": "41.2",
+            "measurement_data[F1250]": "44.4",
+            "measurement_data[F1600]": "40.8",
+            "measurement_data[F2000]": "36.2",
+            "measurement_data[F2500]": "48.3",
+            "measurement_data[F3150]": "51.7",
+            "measurement_data[F4000]": "52.5",
+            "measurement_data[F5000]": "54.0"
+        }
+    }
+}

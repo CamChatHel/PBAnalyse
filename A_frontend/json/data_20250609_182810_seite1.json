@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "Müller-BBM",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "11.11.2011",
+        "pruef_gen_data[MESSRICHTUNG]": "horizontal"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "-",
+            "pruef_bt_data[FLANKE_2]": "-",
+            "pruef_bt_data[FLANKE_3]": "-",
+            "pruef_bt_data[FLANKE_4]": "-",
+            "pruef_bt_data[TRENNBAUTEIL]": "Treppenlauf"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "-",
+            "pruef_bt_id[FLANKE_2_ID]": "-",
+            "pruef_bt_id[FLANKE_3_ID]": "-",
+            "pruef_bt_id[FLANKE_4_ID]": "-",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "7"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Treppenlauf vom EG zum 1. OG\r\n- Natursteinbelag.\r\n- Betonfertigteil, elastisch gelagert.\r\n- Anregung auf Trittstufen Nrn. 2, 5, 8, 11 und 14."
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Naturstein"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+        "pruef_raum_data[SENDERAUM]": "Nebenraum",
+        "pruef_raum_data[TRENNFLAECHE]": "-",
+        "pruef_raum_data[VOLUMENEMPFANG]": "25",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Standard-Trittschallpegel",
+        "messart_data[MESSART]": "Trittschalldaemmung",
+        "messart_data[M_ID]": "2",
+        "messart_data[PARAMETER]": "L'nT",
+        "messart_data[PS_ID]": "6"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-",
+        "spectrum_data[C50B3150]": "-",
+        "spectrum_data[C50B5000]": "-",
+        "spectrum_data[CI50B2500]": "-6",
+        "spectrum_data[CI]": "-6",
+        "spectrum_data[CTR100B5000]": "-",
+        "spectrum_data[CTR50B3150]": "-",
+        "spectrum_data[CTR50B5000]": "-",
+        "spectrum_data[CTR]": "-",
+        "spectrum_data[C]": "-",
+        "spectrum_data[EINZAHLWERT]": "45"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "0",
+        "measurement_data[F0063]": "0",
+        "measurement_data[F0080]": "0",
+        "measurement_data[F0100]": "33.0",
+        "measurement_data[F0125]": "34.9",
+        "measurement_data[F0160]": "39.4",
+        "measurement_data[F0200]": "39.1",
+        "measurement_data[F0250]": "42.2",
+        "measurement_data[F0315]": "39.4",
+        "measurement_data[F0400]": "48.4",
+        "measurement_data[F0500]": "47.5",
+        "measurement_data[F0630]": "43.4",
+        "measurement_data[F0800]": "37.8",
+        "measurement_data[F1000]": "38.7",
+        "measurement_data[F1250]": "39.4",
+        "measurement_data[F1600]": "38.8",
+        "measurement_data[F2000]": "36.8",
+        "measurement_data[F2500]": "35.9",
+        "measurement_data[F3150]": "35.2",
+        "measurement_data[F4000]": "32.2",
+        "measurement_data[F5000]": "30.6"
+    }
+}

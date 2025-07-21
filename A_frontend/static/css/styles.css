@@ -1,0 +1,450 @@
+/* Formatierungen im gerenderten HTML */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        textarea {
+            width: calc(100% - 160px);
+            width: 300px;
+            height: 20px;
+            font-size: 16px;
+            overflow: hidden;
+            resize: none;
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+            border: 1px solid #969696;
+        }
+
+        textarea.error {
+            background-color: #FFE1E1; /* Hellrot */
+            border: 1px solid #969696;
+        }
+
+        label {
+            display: inline-block;
+            width: 250px;
+            font-weight: bold;
+            vertical-align: top;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+        .normal-weight-label {
+            display: inline-block;
+            width: 250px;
+            font-weight: normal;
+            vertical-align: top;
+            text-align: left;
+            margin-right: 10px;
+            line-height: 1.5
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .section h3 {
+            font-size: 18px;
+            text-decoration: underline;
+        }
+        .edit-button {
+            position: absolute;
+            top: 0;
+            left: 600px;
+            z-index: 10;
+            margin: 5px;
+            border-radius: 2px;
+            border: 1px solid #969696;
+        }
+
+        .save-button {
+            top: 0;
+            z-index: 10;
+            background-color: #E1EFD9;
+            margin: 5px;
+            font-size: 20px;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: 1px solid #969696;
+        }
+
+        .delete-button {
+            top: 0;
+            z-index: 10;
+            margin: 5px;
+            background-color: #FFABAB;
+            border: 1px solid #969696;
+            border-radius: 5px;
+        }
+
+        #button-container {
+            display: flex;
+            justify-content: left;
+            margin-top: 30px;
+        }
+
+
+        .custom-input-button {
+            position: absolute; /
+            top: 0;
+            left: 600px;
+            z-index: 10;
+            margin: 5px;
+        }
+
+        .edit-button-safe {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        #saveButton {
+            margin-left: 20px;
+            position: relative;
+            left: 0;
+        }
+
+        #deleteButton {
+            margin-left: 10px;
+            position: relative;
+            left: 0;
+        }
+
+        .edit-button-in-th {
+            position: absolute;
+            top: 0;
+            left: 300px;
+        }
+
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+            position: relative;
+        }
+
+        .row-measurement {
+            display: flex; /* Elemente nebeneinander anordnen */
+            align-items: flex-start; /* Tabellen oben ausrichten */
+            gap: 20px; /* Abstand zwischen den Tabellen */
+            justify-content: flex-start; /* Tabellen nach links ausrichten */
+            margin-top: 20px; /* Optional: Abstand nach oben */
+        }
+
+        .highlight {
+            background-color: #CDE6FF !important; /* Hellblau */
+        }
+
+        .error-number {
+            background-color: #FF9F9F; /* rot */
+        }
+
+        .flanke-block {
+
+            margin-top: 2rem;
+            /*padding-top: 1.5rem;*/
+        }
+
+
+        .measurement-table {
+            border-collapse: collapse;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            table-layout: fixed;
+            width: 565.6px;
+        }
+
+        .measurement-table th,
+        .measurement-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .measurement-table th:nth-child(1),
+        .measurement-table td:nth-child(1) {
+            width: 100px;
+        }
+
+        /*.measurement-table th:nth-child(2),
+        .measurement-table td:nth-child(2) {
+            width: 110px;
+        }*/
+
+        .measurement-table th {
+            background-color: #FFFFFF;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .measurement-table textarea {
+            width: 98%; /* Textarea nutzt 90% der Zellenbreite */
+            height: 15px !important; /* feste Höhe */
+            resize: none; /* Verhindert das manuelle Verändern */
+            text-align: left; /* Text linksbündig */
+            background-color: #FFFFFF;
+            overflow: hidden; /* Verhindert Scrollbalken */
+        }
+
+        .measurement-table tr:nth-child(3n) td {
+            border-bottom: 1px solid #6B6B6B !important;
+        }
+
+        .spectrum-table {
+            border-collapse: collapse;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            table-layout: fixed;
+            width: 565.6px;
+        }
+
+        .spectrum-table th,
+        .spectrum-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .spectrum-table th:nth-child(1),
+        .spectrum-table td:nth-child(1) {
+            width: 100px;
+        }
+
+        /*.spectrum-table th:nth-child(2),
+        .spectrum-table td:nth-child(2) {
+            width: 110px;
+        }*/
+
+        .spectrum-table th {
+            background-color: #FFFFFF;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .spectrum-table textarea {
+            width: 98%; /* Textarea nutzt 90% der Zellenbreite */
+            height: 15px !important; /* feste Höhe */
+            resize: none; /* Verhindert das manuelle Verändern */
+            text-align: left; /* Text linksbündig */
+            background-color: #FFFFFF;
+            overflow: hidden; /* Verhindert Scrollbalken */
+        }
+
+        input {
+            border: none; /* Entfernt den Rahmen */
+            outline: none; /* Entfernt den Fokus-Rahmen */
+            background-color: transparent;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .input-beschreibung {
+            width: 800px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea.error {
+            background-color: #FFE1E1; /* Hellrot */
+        }
+
+
+/*Hinweis zur Dateneingabe*/
+        .info-box {
+            background-color: #E4E4E4; /*#f9f9f9*/
+            border: 1px solid #4B4B4B;
+            border-radius: 5px;
+            width: 555.6px;
+            padding: 5px;
+            margin-bottom: 5px;
+            font-family: Arial, sans-serif;
+        }
+
+        .delete-box {
+            background-color: #fff3f3;
+            border: 1px solid #FFCDCD;
+            border-radius: 5px;
+            width: 555.6px;
+            padding: 5px;
+            margin-bottom: 5px;
+            font-family: Arial, sans-serif;
+        }
+
+        .info-box h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+
+        .legend-extracted,
+        .legend-error,
+        .legend-edited {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            border: 1px solid #ddd;
+            vertical-align: middle;
+        }
+
+        .legend-error {
+            background-color: #FFE1E1; /* Rot für ungültige Felder */
+        }
+
+        .legend-extracted {
+            background-color: #FFFFFF; /* Rot für ungültige Felder */
+        }
+
+        .legend-edited {
+            background-color: #CDE6FF; /* Blau für bearbeitete Felder */
+        }
+
+        .info-box ul {
+            list-style-type: none; /* Entfernt die Punkte */
+            padding-left: 0; /* Entfernt den linken Einzug */
+            margin-left: 0; /* Entfernt zusätzlich den Abstand */
+        }
+
+        .legend-text {
+            padding-left: 30px; /* Abstand zwischen Icon und Text */
+            display: inline-block; /* Damit der Text inline mit den Icons angezeigt wird */
+        }
+
+/* Container für Textarea und Fehlermeldung */
+        .input-numbers {
+            display: flex;
+            flex-direction: column; /* Stellt sicher, dass Elemente vertikal gestapelt sind */
+            width: 400px;
+            background-color: transparent !important;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Stil für die Fehlermeldung */
+        .message {
+            color: red;
+            font-size: 12px;
+            background-color: transparent; /* Kein Hintergrund */
+            margin-top: 3px; /* Abstand nach oben */
+            display: block; /* Sicherstellen, dass der Fehlerblock unter dem Textbereich bleibt */
+        }
+
+        .volume-error {
+            color: red;
+            font-size: 12px;
+            background-color: transparent; /* Kein Hintergrund */
+            margin-top: 3px; /* Abstand nach oben */
+            display: block; /* Sicherstellen, dass der Fehlerblock unter dem Textbereich bleibt */
+        }
+
+        .date-border {
+            border-width: 1px;
+            border-style: solid;
+            border-color: #767676;
+            border-image: initial;
+            padding: 2px;
+        }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Loader */
+#loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    animation: spin 1s linear infinite;
+    display: none;
+    z-index: 1000;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Overlay */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+
+.info-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin-left: 8px;
+}
+
+.info {
+  display: none;
+  background-color: #f0f0f0;
+  border: 1px solid #aaa;
+  padding: 8px;
+  margin-top: 5px;
+  width: 400px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+
+

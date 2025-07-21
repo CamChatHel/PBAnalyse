@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "Müller-BBM",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "27.01.2016",
+        "pruef_gen_data[MESSRICHTUNG]": "-"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+            "pruef_bt_data[FLANKE_2]": "Decke",
+            "pruef_bt_data[FLANKE_3]": "Fussbodenaufbau",
+            "pruef_bt_data[FLANKE_4]": "Wand",
+            "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "6",
+            "pruef_bt_id[FLANKE_2_ID]": "1",
+            "pruef_bt_id[FLANKE_3_ID]": "5",
+            "pruef_bt_id[FLANKE_4_ID]": "2",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Außenwand: 17,5 cm Ziegelmauerwerk, Rohdichte 2,0, innenseitig mit Trockenputz verkleidet\r\nFlurwand: Gipskartonständerwand\r\nDecken: Holzbohlenbelag, schwimmender Estrichaufbau, Stahlbetondecke",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "100 mm Gipskartonständerwand mit direktem Anschluss an die massive Außenwand, Betondecke und Betonboden"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "Mauerwerk",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "Holzbohlenbelag",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "Trockenbau",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ B",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Trockenbau"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "350",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "17.5",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "10"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Buero",
+        "pruef_raum_data[SENDERAUM]": "Buero",
+        "pruef_raum_data[TRENNFLAECHE]": "12.20",
+        "pruef_raum_data[VOLUMENEMPFANG]": "39",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "52"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass",
+        "messart_data[MESSART]": "Luftschalldaemmung",
+        "messart_data[M_ID]": "1",
+        "messart_data[PARAMETER]": "R'",
+        "messart_data[PS_ID]": "4"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-2",
+        "spectrum_data[C50B3150]": "-3",
+        "spectrum_data[C50B5000]": "-3",
+        "spectrum_data[CI50B2500]": "-",
+        "spectrum_data[CI]": "-",
+        "spectrum_data[CTR100B5000]": "-8",
+        "spectrum_data[CTR50B3150]": "-8",
+        "spectrum_data[CTR50B5000]": "-8",
+        "spectrum_data[CTR]": "-8",
+        "spectrum_data[C]": "-3",
+        "spectrum_data[EINZAHLWERT]": "48"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "/",
+        "measurement_data[F0063]": "/",
+        "measurement_data[F0080]": "/",
+        "measurement_data[F0100]": "23.3",
+        "measurement_data[F0125]": "28.0",
+        "measurement_data[F0160]": "31.7",
+        "measurement_data[F0200]": "37.2",
+        "measurement_data[F0250]": "39.9",
+        "measurement_data[F0315]": "45.1",
+        "measurement_data[F0400]": "48.6",
+        "measurement_data[F0500]": "50.8",
+        "measurement_data[F0630]": "52.8",
+        "measurement_data[F0800]": "54.2",
+        "measurement_data[F1000]": "56.4",
+        "measurement_data[F1250]": "55.9",
+        "measurement_data[F1600]": "55.8",
+        "measurement_data[F2000]": "52.7",
+        "measurement_data[F2500]": "44.7",
+        "measurement_data[F3150]": "43.5",
+        "measurement_data[F4000]": "50.8",
+        "measurement_data[F5000]": "54.7"
+    }
+}

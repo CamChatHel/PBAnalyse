@@ -1,0 +1,148 @@
+/* static/styles_index.css */
+body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+input[type="file" i] {
+    width: calc(100% - 160px); /* Breite des Dateiauswahlfelds */
+}
+
+
+input, select, textarea {
+    margin-bottom: 15px; /* Abstand unter jedem Eingabefeld */
+}
+
+#pageSelection, #excelSheetSelection, #previewContainer {
+    margin-bottom: 20px;
+}
+
+#drop-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D1D1D1;
+    border: 2px dashed #4B4B4B;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    color: #4B4B4B;
+    margin-bottom: 20px;
+}
+
+#drop-area.highlight {
+    background-color: #CCECFF;
+}
+
+.file-label {
+  cursor: pointer;
+  color: #4B4B4B;
+  text-decoration: underline;
+}
+
+#file-name {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 15px;
+  color: #4B4B4B;
+}
+
+
+.button {
+    height: 40px;
+}
+
+.check-box{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+/* Loader */
+#loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    animation: spin 1s linear infinite;
+    display: none;
+    z-index: 1000;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Overlay */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+canvas {
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.fancybox-thumb-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: zoom-in;
+}
+
+.fancybox-thumb-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='white' stroke='black' stroke-width='1.5' viewBox='0 0 24 24'><path d='M21 21l-5.2-5.2M10 4a6 6 0 016 6 6 6 0 01-6 6 6 6 0 01-6-6 6 6 0 016-6m0-2a8 8 0 108 8 8 8 0 00-8-8z'/></svg>");
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+
+.fancybox-thumb-wrapper:hover::after {
+  opacity: 1;
+}
+
+.pdf-page-label {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    width: 100%;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+#thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Abstand zwischen Thumbnails */
+    justify-content: left; /* Zentriert die Vorschau */
+}

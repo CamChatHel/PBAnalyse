@@ -1,0 +1,621 @@
+{
+    "allgemeines": {
+        "baustelle_data": {
+            "baustelle_data[ANLASS]": "Anderer",
+            "baustelle_data[BAUJAHR]": "-",
+            "baustelle_data[BAUTYP]": "Andere",
+            "baustelle_data[MESSBUERO]": "JamesHardie Europe GmbH",
+            "baustelle_data[ZUSTAND]": "-"
+        },
+        "land_data": {
+            "land_data[BUNDESLAND]": "-",
+            "land_data[LAND]": "-"
+        }
+    },
+    "measurement": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.03.2021",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Deckenaufbau von oben nach unten: Parkett Holz schwimmend 16mm, Zementestrich d=50mm m=120kg/m², TSD Mineralwolle d=20mm s'<8 MN/m³, Fermacell Wabenschuettung d=60mm m=90 kg/m², Holzwerkstoffplatte 22mm, Deckenbalken 8x24 mit Daemmung d=100mm s'>5 kPa*s/m², Abhaengesystem TPS- Federklip von Protektor, Unterdecke Fermacell 2x10mm Gipsfaserplatte Frequenzbereich entspricht der Referenzkurve L'n Volumen des Empfangsraumes: 44.0m3 (*) - Fremdgeraeuscheinfluss Summe der unguenstigen Abweichungen: 28.4 dB Bewertung nach ISO 717-2: 2013: L' (C) = 35 ( 1) dB C = 15dB n,w l Pruefbericht Nr.: 0609 Name des"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "44",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "15",
+            "spectrum_data[CI]": "1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "35"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "62.5",
+            "measurement_data[F0063]": "61.0",
+            "measurement_data[F0080]": "52.0",
+            "measurement_data[F0100]": "46.4",
+            "measurement_data[F0125]": "43.9",
+            "measurement_data[F0160]": "40.1",
+            "measurement_data[F0200]": "42.4",
+            "measurement_data[F0250]": "40.6",
+            "measurement_data[F0315]": "35.5",
+            "measurement_data[F0400]": "35.6",
+            "measurement_data[F0500]": "32.8",
+            "measurement_data[F0630]": "30.2",
+            "measurement_data[F0800]": "26.0",
+            "measurement_data[F1000]": "23.9",
+            "measurement_data[F1250]": "19.4",
+            "measurement_data[F1600]": "17.3",
+            "measurement_data[F2000]": "16.4",
+            "measurement_data[F2500]": "16.1",
+            "measurement_data[F3150]": "16.3",
+            "measurement_data[F4000]": "10.8",
+            "measurement_data[F5000]": "7.4"
+        }
+    },
+    "measurement_2": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.03.2021",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Deckenaufbau von oben nach unten: Fliesenbelag, Zementestrich d=50mm m=120kg/m², TSD Mineralwolle d=20mm s'<8 MN/m³, Fermacell Wabenschuettung d=60mm m=90 kg/m², Holzwerkstoffplatte 22mm, Deckenbalken 8x24 mit Daemmung d=100mm s'>5 kPa*s/m², Abhaengesystem TPS- Federklip von Protektor, Unterdecke Fermacell 2x10mm Gipsfaserplatte Frequenzbereich entspricht der Referenzkurve L'n Volumen des Empfangsraumes:132.0m3 (*) - Fremdgeraeuscheinfluss Summe der unguenstigen Abweichungen: 19.9 dB Bewertung nach ISO 717-2: 2013: L' (C) = 49 ( -1) dB C = 6dB n,w l Pruefbericht Nr.: 0609 Name des"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holzwerkstoff"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "44",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "6",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "49"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "65.1",
+            "measurement_data[F0063]": "67.0",
+            "measurement_data[F0080]": "59.3",
+            "measurement_data[F0100]": "53.6",
+            "measurement_data[F0125]": "51.4",
+            "measurement_data[F0160]": "51.7",
+            "measurement_data[F0200]": "55.2",
+            "measurement_data[F0250]": "57.3",
+            "measurement_data[F0315]": "52.4",
+            "measurement_data[F0400]": "50.3",
+            "measurement_data[F0500]": "50.9",
+            "measurement_data[F0630]": "48.9",
+            "measurement_data[F0800]": "47.9",
+            "measurement_data[F1000]": "45.7",
+            "measurement_data[F1250]": "42.6",
+            "measurement_data[F1600]": "40.3",
+            "measurement_data[F2000]": "34.6",
+            "measurement_data[F2500]": "30.1",
+            "measurement_data[F3150]": "27.2",
+            "measurement_data[F4000]": "18.8",
+            "measurement_data[F5000]": "13.3"
+        }
+    },
+    "measurement_3": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.03.2021",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Deckenaufbau von oben nach unten: Parkett Holz schwimmend 16mm, Zementestrich d=50mm m=120kg/m², TSD Mineralwolle d=20mm s'<8 MN/m³, Fermacell Wabenschuettung d=60mm m=90 kg/m², Holzwerkstoffplatte 22mm, Deckenbalken 8x24 mit Daemmung d=100mm s'>5 kPa*s/m², Abhaengesystem TPS- Federklip von Protektor, Unterdecke Fermacell 2x10mm Gipsfaserplatte"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "16.10",
+            "pruef_raum_data[VOLUMENEMPFANG]": "44",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Standard-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'nT",
+            "messart_data[PS_ID]": "6"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "16",
+            "spectrum_data[CI]": "1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "33"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "61.1",
+            "measurement_data[F0063]": "59.5",
+            "measurement_data[F0080]": "50.5",
+            "measurement_data[F0100]": "44.9",
+            "measurement_data[F0125]": "42.4",
+            "measurement_data[F0160]": "38.6",
+            "measurement_data[F0200]": "40.9",
+            "measurement_data[F0250]": "39.1",
+            "measurement_data[F0315]": "34.0",
+            "measurement_data[F0400]": "34.1",
+            "measurement_data[F0500]": "31.3",
+            "measurement_data[F0630]": "28.8",
+            "measurement_data[F0800]": "24.5",
+            "measurement_data[F1000]": "22.4",
+            "measurement_data[F1250]": "17.9",
+            "measurement_data[F1600]": "15.8",
+            "measurement_data[F2000]": "14.9",
+            "measurement_data[F2500]": "14.6",
+            "measurement_data[F3150]": "14.9",
+            "measurement_data[F4000]": "9.3",
+            "measurement_data[F5000]": "5.9"
+        }
+    },
+    "measurement_4": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.03.2021",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Deckenaufbau von oben nach unten: Fliesenbelag, Zementestrich d=50mm m=120kg/m², TSD Mineralwolle d=20mm s'<8 MN/m³, Fermacell Wabenschuettung d=60mm m=90 kg/m², Holzwerkstoffplatte 22mm, Deckenbalken 8x24 mit Daemmung d=100mm s'>5 kPa*s/m², Abhaengesystem TPS- Federklip von Protektor, Unterdecke Fermacell 2x10mm Gipsfaserplatte"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holzwerkstoff"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "53.40",
+            "pruef_raum_data[VOLUMENEMPFANG]": "132",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Standard-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'nT",
+            "messart_data[PS_ID]": "6"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "7",
+            "spectrum_data[CI]": "0",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "42"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "58.8",
+            "measurement_data[F0063]": "60.7",
+            "measurement_data[F0080]": "53.1",
+            "measurement_data[F0100]": "47.4",
+            "measurement_data[F0125]": "45.2",
+            "measurement_data[F0160]": "45.5",
+            "measurement_data[F0200]": "48.9",
+            "measurement_data[F0250]": "51.0",
+            "measurement_data[F0315]": "46.1",
+            "measurement_data[F0400]": "44.1",
+            "measurement_data[F0500]": "44.6",
+            "measurement_data[F0630]": "42.7",
+            "measurement_data[F0800]": "41.6",
+            "measurement_data[F1000]": "39.4",
+            "measurement_data[F1250]": "36.3",
+            "measurement_data[F1600]": "34.0",
+            "measurement_data[F2000]": "28.3",
+            "measurement_data[F2500]": "23.8",
+            "measurement_data[F3150]": "20.9",
+            "measurement_data[F4000]": "12.6",
+            "measurement_data[F5000]": "7.0"
+        }
+    },
+    "measurement_5": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.03.2021",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Deckenaufbau von oben nach unten:Parkett 16mm, Zementestrich d=50mm m=120kg/m², TSD Mineralwolle d=20mm s'<8 MN/m³, Fermacell Wabenschuettung d=60mm m=90 kg/m², Holzwerkstoffplatte 22mm, Deckenbalken 8x24 mit Daemmung d=100mm s'>5 kPa*s/m², Abhaengesystem TPS- Federklip von Protektor, Unterdecke Fermacell 2x10mm Gipsfaserplatte Beschreibung des Empfangsraumes: EG Schlafen Beschreibung des Senderaumes:"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holzwerkstoff"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "16.10",
+            "pruef_raum_data[VOLUMENEMPFANG]": "44",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "39"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "R'",
+            "messart_data[PS_ID]": "4"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-1",
+            "spectrum_data[C50B3150]": "-3",
+            "spectrum_data[C50B5000]": "-2",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-5",
+            "spectrum_data[CTR50B3150]": "-12",
+            "spectrum_data[CTR50B5000]": "-12",
+            "spectrum_data[CTR]": "-5",
+            "spectrum_data[C]": "-2",
+            "spectrum_data[EINZAHLWERT]": "66"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "33.6",
+            "measurement_data[F0063]": "36.6",
+            "measurement_data[F0080]": "42.8",
+            "measurement_data[F0100]": "50.3",
+            "measurement_data[F0125]": "50.8",
+            "measurement_data[F0160]": "47.0",
+            "measurement_data[F0200]": "54.9",
+            "measurement_data[F0250]": "58.4",
+            "measurement_data[F0315]": "59.9",
+            "measurement_data[F0400]": "60.7",
+            "measurement_data[F0500]": "61.8",
+            "measurement_data[F0630]": "61.3",
+            "measurement_data[F0800]": "64.6",
+            "measurement_data[F1000]": "68.2",
+            "measurement_data[F1250]": "71.8",
+            "measurement_data[F1600]": "75.5",
+            "measurement_data[F2000]": "76.8",
+            "measurement_data[F2500]": "77.4",
+            "measurement_data[F3150]": "74.5",
+            "measurement_data[F4000]": "80.3",
+            "measurement_data[F5000]": "84.5"
+        }
+    },
+    "measurement_6": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "17.03.2021",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "-",
+                "pruef_bt_data[FLANKE_2]": "-",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "-",
+                "pruef_bt_id[FLANKE_2_ID]": "-",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Deckenaufbau von oben nach unten:Parkett 16mm, Zementestrich d=50mm m=120kg/m², TSD Mineralwolle d=20mm s'<8 MN/m³, Fermacell Wabenschuettung d=60mm m=90 kg/m², Holzwerkstoffplatte 22mm, Deckenbalken 8x24 mit Daemmung d=100mm s'>5 kPa*s/m², Abhaengesystem TPS- Federklip von Protektor, Unterdecke Fermacell 2x10mm Gipsfaserplatte"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holzwerkstoff"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "-",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "16.10",
+            "pruef_raum_data[VOLUMENEMPFANG]": "44",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "39"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Standard-Schallpegeldifferenz",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "DnT",
+            "messart_data[PS_ID]": "3"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "0",
+            "spectrum_data[C50B3150]": "-2",
+            "spectrum_data[C50B5000]": "-1",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-5",
+            "spectrum_data[CTR50B3150]": "-11",
+            "spectrum_data[CTR50B5000]": "-11",
+            "spectrum_data[CTR]": "-5",
+            "spectrum_data[C]": "-1",
+            "spectrum_data[EINZAHLWERT]": "65"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "33.0",
+            "measurement_data[F0063]": "36.1",
+            "measurement_data[F0080]": "42.3",
+            "measurement_data[F0100]": "49.7",
+            "measurement_data[F0125]": "50.3",
+            "measurement_data[F0160]": "46.5",
+            "measurement_data[F0200]": "54.4",
+            "measurement_data[F0250]": "57.8",
+            "measurement_data[F0315]": "59.3",
+            "measurement_data[F0400]": "60.2",
+            "measurement_data[F0500]": "61.2",
+            "measurement_data[F0630]": "60.7",
+            "measurement_data[F0800]": "64.0",
+            "measurement_data[F1000]": "67.7",
+            "measurement_data[F1250]": "71.2",
+            "measurement_data[F1600]": "74.9",
+            "measurement_data[F2000]": "76.2",
+            "measurement_data[F2500]": "76.8",
+            "measurement_data[F3150]": "73.9",
+            "measurement_data[F4000]": "79.7",
+            "measurement_data[F5000]": "83.9"
+        }
+    }
+}

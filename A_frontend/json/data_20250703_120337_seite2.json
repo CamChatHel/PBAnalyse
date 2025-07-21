@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Holzmassivbau",
+        "baustelle_data[MESSBUERO]": "IB Bloedt",
+        "baustelle_data[ZUSTAND]": "Rohbau"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "-",
+        "land_data[LAND]": "-"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "29.08.2023",
+        "pruef_gen_data[MESSRICHTUNG]": "-"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "-",
+            "pruef_bt_data[FLANKE_2]": "-",
+            "pruef_bt_data[FLANKE_3]": "-",
+            "pruef_bt_data[FLANKE_4]": "-",
+            "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "-",
+            "pruef_bt_id[FLANKE_2_ID]": "-",
+            "pruef_bt_id[FLANKE_3_ID]": "-",
+            "pruef_bt_id[FLANKE_4_ID]": "-",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Modul Trenndecke #2 siehe Plan V1A Modul Standardaufbau aus Beschreibung 20mm Estrichelement /25mm Phonestar / 25mm EPS-Tackerplatte 25mm Holzfaser 12mm Regupol"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holz"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "10.7"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "-",
+        "pruef_raum_data[SENDERAUM]": "-",
+        "pruef_raum_data[TRENNFLAECHE]": "-",
+        "pruef_raum_data[VOLUMENEMPFANG]": "30",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "29"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+        "messart_data[MESSART]": "Trittschalldaemmung",
+        "messart_data[M_ID]": "2",
+        "messart_data[PARAMETER]": "L'n",
+        "messart_data[PS_ID]": "5"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-",
+        "spectrum_data[C50B3150]": "-",
+        "spectrum_data[C50B5000]": "-",
+        "spectrum_data[CI50B2500]": "11",
+        "spectrum_data[CI]": "0",
+        "spectrum_data[CTR100B5000]": "-",
+        "spectrum_data[CTR50B3150]": "-",
+        "spectrum_data[CTR50B5000]": "-",
+        "spectrum_data[CTR]": "-",
+        "spectrum_data[C]": "-",
+        "spectrum_data[EINZAHLWERT]": "38"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "60.1",
+        "measurement_data[F0063]": "59.9",
+        "measurement_data[F0080]": "53.5",
+        "measurement_data[F0100]": "48.6",
+        "measurement_data[F0125]": "47.8",
+        "measurement_data[F0160]": "46.0",
+        "measurement_data[F0200]": "44.0",
+        "measurement_data[F0250]": "42.3",
+        "measurement_data[F0315]": "36.8",
+        "measurement_data[F0400]": "31.7",
+        "measurement_data[F0500]": "26.8",
+        "measurement_data[F0630]": "22.8",
+        "measurement_data[F0800]": "17.5",
+        "measurement_data[F1000]": "13.2",
+        "measurement_data[F1250]": "9.3",
+        "measurement_data[F1600]": "6.7",
+        "measurement_data[F2000]": "6.8",
+        "measurement_data[F2500]": "5.2",
+        "measurement_data[F3150]": "3.9",
+        "measurement_data[F4000]": "4.6",
+        "measurement_data[F5000]": "5.6"
+    }
+}

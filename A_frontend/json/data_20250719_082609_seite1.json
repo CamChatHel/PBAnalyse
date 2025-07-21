@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "-",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "02.05.2019",
+        "pruef_gen_data[MESSRICHTUNG]": "horizontal"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "Wand",
+            "pruef_bt_data[FLANKE_2]": "Wand",
+            "pruef_bt_data[FLANKE_3]": "Decke",
+            "pruef_bt_data[FLANKE_4]": "Decke",
+            "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "2",
+            "pruef_bt_id[FLANKE_2_ID]": "2",
+            "pruef_bt_id[FLANKE_3_ID]": "1",
+            "pruef_bt_id[FLANKE_4_ID]": "1",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "1x Außenwand Holzständer mit Vorsatzschale 1x Holzständerwand 1x durchlaufende Brettsperrholzdecke mit Splittbeschwerung und schwimmenden Estrich 1x Stahbetonboden mit schwimmenden Estrich ",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "2 x 12,5 mm Gipsplatten 75 mm Holzstaender inkl. 40 mm Holzwolle 2 x 12,5 mm Gipsplatten - 8,9 m²"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "Holzständer",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "Holzständer",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "Brettsperrholz",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Gipsplatten"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "15"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+        "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+        "pruef_raum_data[TRENNFLAECHE]": "8.90",
+        "pruef_raum_data[VOLUMENEMPFANG]": "28",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "29"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Norm-Schallpegeldifferenz",
+        "messart_data[MESSART]": "Luftschalldaemmung",
+        "messart_data[M_ID]": "1",
+        "messart_data[PARAMETER]": "Dn",
+        "messart_data[PS_ID]": "2"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "0",
+        "spectrum_data[C50B3150]": "-2",
+        "spectrum_data[C50B5000]": "-1",
+        "spectrum_data[CI50B2500]": "-",
+        "spectrum_data[CI]": "-",
+        "spectrum_data[CTR100B5000]": "-5",
+        "spectrum_data[CTR50B3150]": "-8",
+        "spectrum_data[CTR50B5000]": "-8",
+        "spectrum_data[CTR]": "-5",
+        "spectrum_data[C]": "-1",
+        "spectrum_data[EINZAHLWERT]": "44"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "19.7",
+        "measurement_data[F0063]": "20.8",
+        "measurement_data[F0080]": "21.7",
+        "measurement_data[F0100]": "21.7",
+        "measurement_data[F0125]": "32.5",
+        "measurement_data[F0160]": "36.2",
+        "measurement_data[F0200]": "38.6",
+        "measurement_data[F0250]": "44.0",
+        "measurement_data[F0315]": "45.7",
+        "measurement_data[F0400]": "46.6",
+        "measurement_data[F0500]": "48.4",
+        "measurement_data[F0630]": "47.5",
+        "measurement_data[F0800]": "46.1",
+        "measurement_data[F1000]": "43.6",
+        "measurement_data[F1250]": "41.3",
+        "measurement_data[F1600]": "41.0",
+        "measurement_data[F2000]": "43.7",
+        "measurement_data[F2500]": "49.4",
+        "measurement_data[F3150]": "47.2",
+        "measurement_data[F4000]": "53.2",
+        "measurement_data[F5000]": "55.0"
+    }
+}

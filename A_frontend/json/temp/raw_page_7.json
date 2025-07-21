@@ -1,0 +1,233 @@
+{
+    "pruef_gen_data[MESSDATUM]": [
+        "08.02.2021",
+        ""
+    ],
+    "sonstiges_data[ANMERKUNGEN]": [
+        "-"
+    ],
+    "pruef_raum_data[SENDERAUM]": [
+        "Schlafen in WG",
+        ""
+    ],
+    "pruef_raum_data[VOLUMENSENDERAUM]": [
+        "40"
+    ],
+    "pruef_raum_data[EMPFANGSRAUM]": [
+        "Schlafen in WG",
+        ""
+    ],
+    "pruef_raum_data[VOLUMENEMPFANG]": [
+        "41"
+    ],
+    "pruef_raum_data[TRENNFLAECHE]": [
+        "16.00"
+    ],
+    "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": [
+        "Heizestrich auf Trittschalldaemmung Gebundene Splittschuettung 200 mm Brettsperrholz - 16,0 m²"
+    ],
+    "pruef_bt_data[TRENNBAUTEIL]": [
+        "Decke",
+        "1"
+    ],
+    "pruef_bt_id[TRENNBAUTEIL_ID]": [
+        "1"
+    ],
+    "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": [
+        "Brettsperrholz"
+    ],
+    "pruef_bt_material[TRENNBAUTEIL_BAUART]": [
+        "Typ A",
+        "Typ A"
+    ],
+    "pruef_bt_masse[TRENNBAUTEIL_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": [
+        "20"
+    ],
+    "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": [
+        "Aussenwand, Wohnungstrennwand: Holzstaenderwand Treppenhauswand: Stahlbetonwand Innenwand: Leichtbaukonstruktion"
+    ],
+    "pruef_bt_data[FLANKE_1]": [
+        "Gesamtfassade",
+        "6"
+    ],
+    "pruef_bt_id[FLANKE_1_ID]": [
+        "6"
+    ],
+    "pruef_bt_material[FLANKE_1_MATERIAL]": [
+        "Holzständerwand"
+    ],
+    "pruef_bt_masse[FLANKE_1_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_1_DICKE]": [
+        "-"
+    ],
+    "pruef_bt_data[FLANKE_2]": [
+        "Wand",
+        "2"
+    ],
+    "pruef_bt_id[FLANKE_2_ID]": [
+        "2"
+    ],
+    "pruef_bt_material[FLANKE_2_MATERIAL]": [
+        "Stahlbeton"
+    ],
+    "pruef_bt_masse[FLANKE_2_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_2_DICKE]": [
+        "-"
+    ],
+    "pruef_bt_data[FLANKE_3]": [
+        "Wand",
+        "2"
+    ],
+    "pruef_bt_id[FLANKE_3_ID]": [
+        "2"
+    ],
+    "pruef_bt_material[FLANKE_3_MATERIAL]": [
+        "Leichtbaukonstruktion"
+    ],
+    "pruef_bt_masse[FLANKE_3_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_3_DICKE]": [
+        "-"
+    ],
+    "pruef_bt_data[FLANKE_4]": [
+        "-",
+        "1"
+    ],
+    "pruef_bt_id[FLANKE_4_ID]": [
+        "-"
+    ],
+    "pruef_bt_material[FLANKE_4_MATERIAL]": [
+        "-"
+    ],
+    "pruef_bt_masse[FLANKE_4_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_4_DICKE]": [
+        "-"
+    ],
+    "pruef_gen_data[MESSRICHTUNG]": [
+        "vertikal",
+        "vertikal"
+    ],
+    "messart_data[MESSART]": [
+        "Trittschalldaemmung",
+        "Trittschalldaemmung"
+    ],
+    "messart_data[M_ID]": [
+        "2"
+    ],
+    "messart_data[PARAMETER]": [
+        "L'n",
+        ""
+    ],
+    "messart_data[BESCHREIBUNG]": [
+        "Norm-Trittschallpegel"
+    ],
+    "messart_data[PS_ID]": [
+        "5"
+    ],
+    "spectrum_data[EINZAHLWERT]": [
+        "49"
+    ],
+    "measurement_data[F0050]": [
+        "64.0"
+    ],
+    "measurement_data[F0063]": [
+        "54.7"
+    ],
+    "measurement_data[F0080]": [
+        "55.1"
+    ],
+    "measurement_data[F0100]": [
+        "53.9"
+    ],
+    "measurement_data[F0125]": [
+        "55.2"
+    ],
+    "measurement_data[F0160]": [
+        "58.2"
+    ],
+    "measurement_data[F0200]": [
+        "56.4"
+    ],
+    "measurement_data[F0250]": [
+        "55.1"
+    ],
+    "measurement_data[F0315]": [
+        "53.6"
+    ],
+    "measurement_data[F0400]": [
+        "51.2"
+    ],
+    "measurement_data[F0500]": [
+        "48.2"
+    ],
+    "measurement_data[F0630]": [
+        "45.4"
+    ],
+    "measurement_data[F0800]": [
+        "44.5"
+    ],
+    "measurement_data[F1000]": [
+        "41.2"
+    ],
+    "measurement_data[F1250]": [
+        "37.9"
+    ],
+    "measurement_data[F1600]": [
+        "36.3"
+    ],
+    "measurement_data[F2000]": [
+        "30.0"
+    ],
+    "measurement_data[F2500]": [
+        "19.4"
+    ],
+    "measurement_data[F3150]": [
+        "13.1"
+    ],
+    "measurement_data[F4000]": [
+        "11.6"
+    ],
+    "measurement_data[F5000]": [
+        "10.2"
+    ],
+    "spectrum_data[C]": [
+        "-"
+    ],
+    "spectrum_data[C50B3150]": [
+        "-"
+    ],
+    "spectrum_data[C50B5000]": [
+        "-"
+    ],
+    "spectrum_data[C100B5000]": [
+        "-"
+    ],
+    "spectrum_data[CTR]": [
+        "-"
+    ],
+    "spectrum_data[CTR50B3150]": [
+        "-"
+    ],
+    "spectrum_data[CTR50B5000]": [
+        "-"
+    ],
+    "spectrum_data[CTR100B5000]": [
+        "-"
+    ],
+    "spectrum_data[CI]": [
+        "0"
+    ],
+    "spectrum_data[CI50B2500]": [
+        "4"
+    ]
+}

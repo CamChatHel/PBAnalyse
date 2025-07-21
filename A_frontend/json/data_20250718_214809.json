@@ -1,0 +1,520 @@
+{
+    "allgemeines": {
+        "baustelle_data": {
+            "baustelle_data[ANLASS]": "Anderer",
+            "baustelle_data[BAUJAHR]": "-",
+            "baustelle_data[BAUTYP]": "Andere",
+            "baustelle_data[MESSBUERO]": "PMI GmbH",
+            "baustelle_data[ZUSTAND]": "-"
+        },
+        "land_data": {
+            "land_data[BUNDESLAND]": "Bayern",
+            "land_data[LAND]": "Deutschland"
+        }
+    },
+    "measurement": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "05.12.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Gesamtfassade",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "6",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "20cm Stb. Innenwand mit Stahlwinkel als Auflager, 175mm GK-Innenwand, 17cm Holzrahmenwand, - Aussenwand Holzrahmenbau 20cm Staender mit Daemmung, Installationsebene innen 6,25cm - Rohdecke Brettsperrholz mit 22mm Fichten 3-Schichtplatte beplankt, Schraubabstand ca. 60cm Der bei Anregung des Hammerwerks entstehende Luftschall hatte keinen Einfluss auf das Messergebnis Fuer Terzbaender mit ^ betrug der Stoerabstand zwischen ≤ 10dB und ≥ 6dB, bei Terzbaendern mit * betrug der Stoerabstand ≤ 6dB",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke - Deckenaufbau: -15mm Fertigparkett, verklebt - 65mm Zementestrich CT-F4-S65-H48 - 17mm Rohr PE-Xa - 30mm Trittschalldaemmung MiWo 032 DES s' ≤ MN/m³ - 120mm Ausgleichsschuettung Splttschuettung elastisch gebunden m' ≥ 150kg/m² - 160mm Brettschichtholzdecke mit 2x 12,5mm GK Bauplatte direkt beplankt -"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Brettschichtholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "150"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "20",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "17.5",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "17",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "26.2",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "16"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "-",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "37",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "37"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "9",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "47"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "68.5",
+            "measurement_data[F0063]": "64.5",
+            "measurement_data[F0080]": "56.0",
+            "measurement_data[F0100]": "53.2",
+            "measurement_data[F0125]": "51.3",
+            "measurement_data[F0160]": "52.9",
+            "measurement_data[F0200]": "50.6",
+            "measurement_data[F0250]": "48.8",
+            "measurement_data[F0315]": "48.3",
+            "measurement_data[F0400]": "50.0",
+            "measurement_data[F0500]": "48.6",
+            "measurement_data[F0630]": "50.5",
+            "measurement_data[F0800]": "49.3",
+            "measurement_data[F1000]": "46.3",
+            "measurement_data[F1250]": "42.7",
+            "measurement_data[F1600]": "38.0",
+            "measurement_data[F2000]": "31.6",
+            "measurement_data[F2500]": "26.8",
+            "measurement_data[F3150]": "19.8",
+            "measurement_data[F4000]": "10.6",
+            "measurement_data[F5000]": "7.8"
+        }
+    },
+    "measurement_2": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "05.12.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Gesamtfassade",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "6",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "20cm Stb. Innenwand mit Stahlwinkel als Auflager, 175mm GK-Innenwand, 17cm Holzrahmenwand, - Aussenwand Holzrahmenbau 20cm Staender mit Daemmung, Installationsebene innen 6,25cm - Rohdecke Brettsperrholz mit 22mm Fichten 3-Schichtplatte beplankt, Schraubabstand verringert auf ca. 30cm Der bei Anregung des Hammerwerks entstehende Luftschall hatte keinen Einfluss auf das Messergebnis Fuer Terzbaender mit ^ betrug der Stoerabstand zwischen ≤ 10dB und ≥ 6dB, bei Terzbaendern mit * betrug der Stoerabstand ≤ 6dB",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke - Deckenaufbau: -15mm Fertigparkett, verklebt - 65mm Zementestrich CT-F4-S65-H48 - 17mm Rohr PE-Xa - 30mm Trittschalldaemmung MiWo 032 DES s' ≤ MN/m³ - 120mm Ausgleichsschuettung Splttschuettung elastisch gebunden m' ≥ 150kg/m² - 160mm Brettschichtholzdecke mit 2x 12,5mm GK Bauplatte direkt beplankt -"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Brettschichtholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "150"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "20",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "17.5",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "17",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "26.2",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "16"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "-",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "37",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "37"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "7",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "47"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "66.8",
+            "measurement_data[F0063]": "63.1",
+            "measurement_data[F0080]": "55.3",
+            "measurement_data[F0100]": "52.5",
+            "measurement_data[F0125]": "50.9",
+            "measurement_data[F0160]": "52.8",
+            "measurement_data[F0200]": "50.3",
+            "measurement_data[F0250]": "49.4",
+            "measurement_data[F0315]": "48.1",
+            "measurement_data[F0400]": "50.1",
+            "measurement_data[F0500]": "47.6",
+            "measurement_data[F0630]": "48.7",
+            "measurement_data[F0800]": "48.1",
+            "measurement_data[F1000]": "46.8",
+            "measurement_data[F1250]": "43.7",
+            "measurement_data[F1600]": "39.1",
+            "measurement_data[F2000]": "32.7",
+            "measurement_data[F2500]": "27.3",
+            "measurement_data[F3150]": "20.9",
+            "measurement_data[F4000]": "11.5",
+            "measurement_data[F5000]": "8.3"
+        }
+    },
+    "measurement_3": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "05.12.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Gesamtfassade",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "6",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "20cm Stb. Innenwand mit Stahlwinkel als Auflager, 175mm GK-Innenwand, 17cm Holzrahmenwand, - Aussenwand Holzrahmenbau 20cm Staender mit Daemmung, Installationsebene innen 6,25cm - Fichten 3-Schichtplatte entfernt und 1x 12,5mm Fermacellplatte direkt beplankt, Schraubabstand ca. 20cm Der bei Anregung des Hammerwerks entstehende Luftschall hatte keinen Einfluss auf das Messergebnis Fuer Terzbaender mit ^ betrug der Stoerabstand zwischen ≤ 10dB und ≥ 6dB, bei Terzbaendern mit * betrug der Stoerabstand ≤ 6dB",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke - Deckenaufbau: -15mm Fertigparkett, verklebt - 65mm Zementestrich CT-F4-S65-H48 - 17mm Rohr PE-Xa - 30mm Trittschalldaemmung MiWo 032 DES s' ≤ MN/m³ - 120mm Ausgleichsschuettung Splttschuettung elastisch gebunden m' ≥ 150kg/m² - 160mm Brettschichtholzdecke mit 2x 12,5mm GK Bauplatte direkt beplankt -"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Brettschichtholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "20",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "17.5",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "17",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "20",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "16"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "-",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "37",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "37"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "7",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "46"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "65.8",
+            "measurement_data[F0063]": "62.0",
+            "measurement_data[F0080]": "54.5",
+            "measurement_data[F0100]": "52.0",
+            "measurement_data[F0125]": "50.7",
+            "measurement_data[F0160]": "50.9",
+            "measurement_data[F0200]": "50.3",
+            "measurement_data[F0250]": "48.9",
+            "measurement_data[F0315]": "48.5",
+            "measurement_data[F0400]": "50.5",
+            "measurement_data[F0500]": "49.6",
+            "measurement_data[F0630]": "49.8",
+            "measurement_data[F0800]": "47.5",
+            "measurement_data[F1000]": "44.4",
+            "measurement_data[F1250]": "41.6",
+            "measurement_data[F1600]": "36.9",
+            "measurement_data[F2000]": "30.3",
+            "measurement_data[F2500]": "25.0",
+            "measurement_data[F3150]": "19.7",
+            "measurement_data[F4000]": "12.1",
+            "measurement_data[F5000]": "7.9"
+        }
+    },
+    "measurement_4": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "05.12.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Gesamtfassade",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "6",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "20cm Stb. Innenwand mit Stahlwinkel als Auflager, 175mm GK-Innenwand, 17cm Holzrahmenwand, - Aussenwand Holzrahmenbau 20cm Staender mit Daemmung, Installationsebene innen 6,25cm - wie Anlage 1.3 jedoch 1/4 der Deckenbeplankung von Treppenhauswand ausgehend entfernt, mit 8mm Bautenschutzmatte unterfuettert und wieder festgeschraubt, Regupol Bautenschutzmatte ohne Produktangaben Der bei Anregung des Hammerwerks entstehende Luftschall hatte keinen Einfluss auf das Messergebnis Fuer Terzbaender mit ^ betrug der Stoerabstand zwischen ≤ 10dB und ≥ 6dB, bei Terzbaendern mit * betrug der Stoerabstand ≤ 6dB",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke - Deckenaufbau: -15mm Fertigparkett, verklebt - 65mm Zementestrich CT-F4-S65-H48 - 17mm Rohr PE-Xa - 30mm Trittschalldaemmung MiWo 032 DES s' ≤ MN/m³ - 120mm Ausgleichsschuettung Splttschuettung elastisch gebunden m' ≥ 150kg/m² - 160mm Brettschichtholzdecke mit 2x 12,5mm GK Bauplatte direkt beplankt -"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Holzrahmenbau",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Holzrahmenbau",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Brettschichtholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "150"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "20",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "17.5",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "17",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "26.2",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "16"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "-",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "37",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "37"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "7",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "46"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "65.7",
+            "measurement_data[F0063]": "61.4",
+            "measurement_data[F0080]": "52.2",
+            "measurement_data[F0100]": "51.8",
+            "measurement_data[F0125]": "48.8",
+            "measurement_data[F0160]": "51.6",
+            "measurement_data[F0200]": "48.8",
+            "measurement_data[F0250]": "49.2",
+            "measurement_data[F0315]": "49.8",
+            "measurement_data[F0400]": "51.7",
+            "measurement_data[F0500]": "48.4",
+            "measurement_data[F0630]": "47.9",
+            "measurement_data[F0800]": "46.0",
+            "measurement_data[F1000]": "43.2",
+            "measurement_data[F1250]": "40.5",
+            "measurement_data[F1600]": "34.7",
+            "measurement_data[F2000]": "29.2",
+            "measurement_data[F2500]": "25.2",
+            "measurement_data[F3150]": "18.2",
+            "measurement_data[F4000]": "10.1",
+            "measurement_data[F5000]": "8.3"
+        }
+    },
+    "measurement_5": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "05.12.2023",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Gesamtfassade",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "6",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "20cm Stb. Innenwand mit Stahlwinkel als Auflager, 175mm GK-Innenwand, 17cm Holzrahmenwand, - Aussenwand Holzrahmenbau 20cm Staender mit Daemmung, Installationsebene innen 6,25cm - wie Anlage 1.4 jedoch 1/2 der Deckenbeplankung von Treppenhauswand ausgehend entfernt, mit 8mm Bautenschutzmatte unterfuettert und wieder festgeschraubt, Regupol Bautenschutzmatte ohne Produktangaben Der bei Anregung des Hammerwerks entstehende Luftschall hatte keinen Einfluss auf das Messergebnis Fuer Terzbaender mit ^ betrug der Stoerabstand zwischen ≤ 10dB und ≥ 6dB, bei Terzbaendern mit * betrug der Stoerabstand ≤ 6dB",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke - Deckenaufbau: -15mm Fertigparkett, verklebt - 65mm Zementestrich CT-F4-S65-H48 - 17mm Rohr PE-Xa - 30mm Trittschalldaemmung MiWo 032 DES s' ≤ MN/m³ - 120mm Ausgleichsschuettung Splttschuettung elastisch gebunden m' ≥ 150kg/m² - 160mm Brettschichtholzdecke mit 2x 12,5mm GK Bauplatte direkt beplankt -"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Holzrahmen",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Brettschichtholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "150"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "20",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "17.5",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "17",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "26.2",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "16"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "-",
+            "pruef_raum_data[SENDERAUM]": "-",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "37",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "37"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "6",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "46"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "64.4",
+            "measurement_data[F0063]": "60.5",
+            "measurement_data[F0080]": "53.0",
+            "measurement_data[F0100]": "52.3",
+            "measurement_data[F0125]": "47.2",
+            "measurement_data[F0160]": "51.0",
+            "measurement_data[F0200]": "49.8",
+            "measurement_data[F0250]": "48.7",
+            "measurement_data[F0315]": "48.4",
+            "measurement_data[F0400]": "51.8",
+            "measurement_data[F0500]": "48.1",
+            "measurement_data[F0630]": "49.5",
+            "measurement_data[F0800]": "47.2",
+            "measurement_data[F1000]": "44.0",
+            "measurement_data[F1250]": "41.0",
+            "measurement_data[F1600]": "36.9",
+            "measurement_data[F2000]": "31.2",
+            "measurement_data[F2500]": "26.0",
+            "measurement_data[F3150]": "18.8",
+            "measurement_data[F4000]": "10.0",
+            "measurement_data[F5000]": "7.7"
+        }
+    }
+}

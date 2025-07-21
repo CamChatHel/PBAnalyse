@@ -1,0 +1,639 @@
+<!-- 2. Route DATENÜBERPRÜFUNG -->
+
+<!DOCTYPE html>
+<html lang="de" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Überprüfung</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+<script>
+    const messarten = {{ messarten | tojson }};
+    const parameter = {{ parameter | tojson }};
+    const ps_id = {{ data_PS_ID.PS_ID | tojson }};
+    const original_keys = {{ data_PS_ID.original_keys | tojson }};
+
+    const regions = {
+        Deutschland: {{ bundeslaender_de | tojson }},
+        Oesterreich: {{ bundeslaender_oe | tojson  }},
+        Schweiz: {{ kantone_ch | tojson  }}
+    };
+
+</script>
+
+<script type="text/javascript">
+   const messParaId = {{ mess_para_id | tojson }};
+</script>
+
+</head>
+<body>
+{% include 'loader.html' %}
+<div id="custom-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span class="close" onclick="hideModal()">&times;</span>
+        <p id="modal-message"></p>
+        <div id="confirmation-buttons" style="display: none;">
+            <button id="modal-confirm-button" type="button">Ja</button>
+            <button id="modal-cancel-button" type="button" onclick="hideModal()">Nein</button>
+        </div>
+        <div id="ok-button" style="display: none;">
+            <button type="button" onclick="hideModal()">OK</button>
+        </div>
+    </div>
+</div>
+    <h1>Datenüberprüfung</h1>
+    <form method="POST" action="{{ url_for('save_data') if is_last_page else url_for('next_page') }}">
+
+    <h2>Protokoll {{ current_index }} von {{ total }}</h2>
+
+
+        <div class="info-box">
+            <h2>Hinweise zur Dateneingabe</h2>
+            <p>
+            <ul>
+                <li><span class="legend-extracted"></span> <strong class="legend-text">Weiß:</strong> Übernommene Daten aus dem Prüfbericht.</li>
+                <li><span class="legend-error"></span> <strong class="legend-text">Rot:</strong> Keine Daten gefunden. Bitte Ausfüllen.</li>
+                <li><span class="legend-edited"></span> <strong class="legend-text">Blau:</strong> Bearbeitete Daten.</li>
+            </ul>
+            </p>
+            <p>
+                Bitte stellen Sie sicher, dass alle Felder korrekt ausgefüllt sind, bevor Sie die Daten speichern.
+            </p>
+        </div>
+
+
+        <!-- Baustelle -->
+        <div class="section">
+            <h2>Allgemeines</h2>
+
+        {% if not is_onesite or current_index == 1 or is_first_page %}
+
+            {% for key, value in baustelle_data.items() %}
+            <div class="row">
+                <label for="{{ key }}">{{ labels[key] | safe }}:</label>
+
+            {% if key == "MESSBUERO" %}
+              <div class="messbuero-field">
+                  <!-- Sichtbares Textfeld zur Anzeige bzw. für eigene Eingabe -->
+                  <textarea id="MESSBUERO_display_{{ current_index }}" readonly>{{ value|safe }}</textarea>
+
+                  <!-- Hidden Input, der immer mit dem Namen existiert und den Wert überträgt -->
+                  <input type="hidden" id="MESSBUERO_{{ current_index }}" name="baustelle_data[MESSBUERO]" value="{{ value|safe }}">
+
+                  <!-- Dropdown zur Auswahl, beginnt ausgeblendet -->
+                  <select id="MESSBUERO_dropdown_{{ current_index }}" style="display:none;" disabled onchange="handleMessbueroChange({{ current_index }})">
+                      <option value="keine Angabe">keine Angabe</option>
+                      {% for company in companies %}
+                          <option value="{{ company }}" {% if value == company %}selected{% endif %}>{{ company }}</option>
+                      {% endfor %}
+                  </select>
+
+                  <!-- Buttons für den Moduswechsel -->
+                  <button type="button" id="MESSBUERO_edit_button_{{ current_index }}" class="edit-button" onclick="enableMessbueroDropdown({{ current_index }})">Bearbeiten</button>
+                  <button type="button" id="MESSBUERO_custom_input_button_{{ current_index }}" class="custom-input-button" onclick="enableMessbueroCustomInput({{ current_index }})" style="display:none;">Eigene Eingabe</button>
+              </div>
+
+                {% elif key == "BAUTYP" %}
+                <textarea id="{{ key }}" name="baustelle_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                <select id="{{ key }}_dropdown" name="baustelle_data[{{ key }}]" style="display:none;">
+                    {% for bautyp in bautypen %}
+                    <option value="{{ bautyp }}" {{'selected' if value == bautyp else '' }}>{{ bautyp }}</option>
+                    {% endfor %}
+                </select>
+                <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+
+                {% elif key == "BAUJAHR" %}
+                <div class="input-numbers">
+                    <textarea id="{{ key }}" name="baustelle_data[{{ key }}]" oninput="validateBaujahr(this)" readonly>{{ value }}</textarea>
+                    <span id="baujahr-error" class="message" style="display: none;">Bitte geben Sie ein gültiges Baujahr ein (4-stellige Zahl).</span>
+                </div>
+                <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+
+                {% elif key == "ZUSTAND" %}
+                <textarea id="{{ key }}" name="baustelle_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                <select id="{{ key }}_dropdown" name="baustelle_data[{{ key }}]" style="display:none;">
+                    {% for zustand in zustaende %}
+                    <option value="{{ zustand }}" {{'selected' if value == zustand else '' }}>{{ zustand }}</option>
+                    {% endfor %}
+                </select>
+                <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+                {% elif key == "ANLASS" %}
+                <textarea id="{{ key }}" name="baustelle_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                <select id="{{ key }}_dropdown" name="baustelle_data[{{ key }}]" style="display:none;">
+                    {% for anlass in anlaesse %}
+                    <option value="{{ anlass }}" {{'selected' if value == anlass else '' }}>{{ anlass }}</option>
+                    {% endfor %}
+                </select>
+                <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+                {% else %}
+                    <textarea id="{{ key }}" name="baustelle_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                    <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+                {% endif %}
+
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <!-- Prüfsituation general -->
+        {% for key, value in pruef_gen_data.items() %}
+            {% if key != "MESSRICHTUNG" %}
+                {% if key == "MESSDATUM" or not is_onesite or current_index == 1 %}
+                    <div class="row">
+                        <label for="{{ key }}">{{ labels[key] | safe }}:</label>
+
+                        {% if key == "MESSDATUM" %}
+                            <textarea id="{{ key }}" name="pruef_gen_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                            <input type="date" id="{{ key }}_date" name="pruef_gen_data[{{ key }}]" style="display:none;" readonly pattern="\d{2}\.\d{2}\.\d{4}" placeholder="dd.mm.yyyy">
+                            <button type="button" class="edit-button" onclick="enableEditingForDate(this, '{{ key }}')">Bearbeiten</button>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+
+        {% for key, value in baustelle_data.items() %}
+            {% if key not in labels %}
+                <div style="color: red;">⚠ Unbekannter Key: {{ key }}</div>
+            {% endif %}
+        {% endfor %}
+
+        <!-- Land -->
+    {% if not is_onesite or current_index == 1 or is_first_page %}
+        {% for key, value in land_data.items() %}
+        <div class="row">
+            <label for="{{ key }}">{{ labels[key] | safe }}:</label>
+            {% if key == "LAND" %}
+            <textarea id="land" name="land_data[LAND]" readonly>{{ value|safe }}</textarea>
+            <select id="land_dropdown" name="land_data[LAND]" style="display:none;">
+                {% for land in laender %}
+                <option value="{{ land }}" {{'selected' if value == land else '' }}>{{ land }}</option>
+                {% endfor %}
+            </select>
+            <button type="button" class="edit-button" onclick="enableEditingForLandAndRegion(this)">Bearbeiten</button>
+            {% elif key == "BUNDESLAND" %}
+            <textarea id="bundeslaender" name="land_data[BUNDESLAND]" readonly>{{ value|safe }}</textarea>
+            <select id="bundeslaender_dropdown" name="land_data[BUNDESLAND]" style="display:none;">
+                {% for region in regions %}
+                <option value="{{ region }}" {{'selected' if value == region else '' }}>{{ region }}</option>
+                {% endfor %}
+            </select>
+            {% endif %}
+        </div>
+        {% endfor %}
+    {% endif %}
+
+        <!-- Sonstiges -->
+        {% for key, value in sonstiges_data.items() %}
+            <div class="row">
+                <label for="{{ key }}" style="height: 100px;" >{{ labels[key] | safe }}:</label>
+                <textarea id="{{ key }}" name="sonstiges_data[{{ key }}]" style="height: 100px; resize: vertical;" readonly>{{ value|safe }}</textarea>
+                <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+            </div>
+            {% endfor %}
+
+        <!-- Pruefsituation -->
+        <div class="section">
+            <h2>Prüfsituation</h2>
+        </div>
+        <!-- Raumdaten -->
+        {% for key, value in pruef_raum_data.items() %}
+        <div class="row">
+            <label for="{{ key }}">{{ labels[key] | safe }}:</label>
+
+            {% if key == "SENDERAUM" %}
+            <textarea id="{{ key }}" name="pruef_raum_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+            <select id="{{ key }}_dropdown" name="pruef_raum_data[{{ key }}]" style="display:none;">
+                {% for raumart in raumarten %}
+                <option value="{{ raum }}" {{'selected' if value == raumart else '' }}>{{ raumart }}</option>
+                {% endfor %}
+            </select>
+            <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+
+            {% elif key == "EMPFANGSRAUM" %}
+            <textarea id="{{ key }}" name="pruef_raum_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+            <select id="{{ key }}_dropdown" name="pruef_raum_data[{{ key }}]" style="display:none;">
+                {% for raumart in raumarten %}
+                <option value="{{ raum }}" {{'selected' if value == raumart else '' }}>{{ raumart }}</option>
+                {% endfor %}
+            </select>
+            <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+
+            {% elif key == "VOLUMENSENDERAUM" %}
+            <div class="input-numbers">
+                <textarea id="{{ key }}" name="pruef_raum_data[{{ key }}]" oninput="validateVolume(this)" readonly>{{ value }}</textarea>
+                <span id="{{ key }}-message" class="message" style="display: none;">Bitte geben Sie das Volumen auf ein Kubikmeter an.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+
+            {% elif key == "VOLUMENEMPFANG" %}
+            <div class="input-numbers">
+                <textarea id="{{ key }}" name="pruef_raum_data[{{ key }}]" oninput="validateVolume(this)" readonly>{{ value }}</textarea>
+                <span id="{{ key }}-message" class="message" style="display: none;">Bitte geben Sie das Volumen auf ein Kubikmeter an.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+
+            {% elif key == "TRENNFLAECHE" %}
+            <div class="input-numbers">
+                <textarea id="{{ key }}" name="pruef_raum_data[{{ key }}]" oninput="validateArea(this)" readonly>{{ value }}</textarea>
+                <span id="{{ key }}-message" class="message" style="display: none;">Bitte geben Sie die Trennfläche mit zwei Nachkommastellen an.<br>
+                                    Verwenden Sie einen Dezimalpunkt.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+
+            {% else %}
+            <textarea id="{{ key }}" name="pruef_raum_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+            <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+
+
+
+        <!-- Trennbauteil -->
+        <div class="section">
+            <h3>Trennbauteil</h3>
+        </div>
+
+        {% for key, value in pruef_bt_beschreibung.items() %}
+            <div class="row">
+                {% if key == "BT_BESCHREIBUNG_TRENN" %}
+                <label for="{{ key }}" class="normal-weight-label" style="height: 100px;">{{ labels[key] | safe }}:</label>
+                <textarea id="{{ key }}" name="pruef_bt_beschreibung[{{ key }}]" style="height: 100px; resize: vertical;" readonly>{{ value|safe }}</textarea>
+                <button type="button" class="edit-button" onclick="enableEditing(this)" >Bearbeiten</button>
+                {%endif%}
+            </div>
+            {% endfor %}
+
+        <div class="row">
+            <label for="Trennbauteil" class="normal-weight-label" >{{ labels['TRENNBAUTEIL'] | safe }}:</label>
+            <textarea id="Trennbauteil" name="pruef_bt_data[TRENNBAUTEIL]" readonly>{{ pruef_bt_data.TRENNBAUTEIL|safe }}</textarea>
+            <select id="Trennbauteil_dropdown" name="pruef_bt_data[TRENNBAUTEIL]" style="display:none;" onchange="updateTrennbauteilID()">
+                {% for key, value in BT_kategorien.items() %}
+                <option value="{{ value }}" {{'selected' if pruef_bt_data.TRENNBAUTEIL == key else '' }}>{{ key }}</option>
+                {% endfor %}
+            </select>
+            <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, 'Trennbauteil')">Bearbeiten</button>
+        </div>
+        <div class="row">
+            <label for="Trennbauteil_ID" class="normal-weight-label">{{ labels['TRENNBAUTEIL_ID'] | safe }}:</label>
+            <input
+                    id="Trennbauteil_ID"
+                    name="pruef_bt_id[TRENNBAUTEIL_ID]"
+                    value="{{ pruef_bt_id.TRENNBAUTEIL_ID | safe }}"
+                    readonly>
+        </div>
+
+
+            {% for key, value in pruef_bt_material.items() %}
+                {% if key == "TRENNBAUTEIL_MATERIAL" %}
+                <div class="row">
+                    <label for="{{ key }}" class="normal-weight-label">{{ labels[key] | safe }}:</label>
+                    <textarea id="{{ key }}" name="pruef_bt_material[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                    <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+                </div>
+
+                {% elif key == "TRENNBAUTEIL_BAUART" %}
+                <div class="row">
+                    <label for="{{ key }}" class="normal-weight-label">{{ labels[key] | safe }}:</label>
+                    <textarea id="{{ key }}" name="pruef_bt_material[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                    <select id="{{ key }}_dropdown" name="pruef_bt_material[{{ key }}]" style="display:none;">
+                        <option value="Typ A">Typ A</option>
+                        <option value="Typ B">Typ B</option>
+                    </select>
+                    <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+                    <!-- Info-Icon -->
+                    <button type="button" class="info-icon" onclick="toggleInfo('info-bauteiltyp')">
+                    ℹ️
+                    </button>
+                    <!-- Info-Feld -->
+                    <div class="info" id="info-bauteiltyp">
+                        <p>Beispiele für:</p>
+                      <p><strong>Typ A:</strong> Mauerwerk, Stahlbeton, Kalksandstein, Massivholz</p>
+                      <p><strong>Typ B:</strong> Trockenbau, Gipskarton, Holzständerwerk</p>
+                      <p><small>(DIN EN ISO 12354-1:2017-11)</small> </p>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+
+
+        {% for key, value in pruef_bt_masse.items() %}
+        <div class="row">
+            {% if key == "TRENNBAUTEIL_MASSE" %}
+            <label for="{{ key }}" class="normal-weight-label" style="display: inline-block;">{{ labels[key] | safe }}:</label>
+            <div class="input-numbers">
+                <textarea id="{{ key }}" name="pruef_bt_masse[{{ key }}]" oninput="validateVolume(this)" readonly>{{ value }}</textarea>
+                <span id="{{ key }}-message" class="message" style="display: none;">Bitte geben Sie die flächenbezogene Masse als ganze Zahl an.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+
+        {% for key, value in pruef_bt_dicke.items() %}
+        <div class="row">
+            {% if key == "TRENNBAUTEIL_DICKE" %}
+            <label for="{{ key }}" class="normal-weight-label" style="display: inline-block;">{{ labels[key] | safe }}:</label>
+            <div class="input-numbers">
+                <textarea id="{{ key }}" name="pruef_bt_dicke[{{ key }}]" oninput="validateDimension(this)" readonly>{{ value }}</textarea>
+                <span id="{{ key }}-message" class="message" style="display: none;">Bitte geben Sie die Dicke mit maximal einer Nachkommastelle an.<br>Verwenden Sie einen Dezimalpunkt.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this)" style="display: inline-block;">Bearbeiten</button>
+            {% endif %}
+        </div>
+        {% endfor %}
+
+        <!-- Flanken -->
+        <div class="section">
+            <h3>Flankierende Bauteile</h3>
+        </div>
+
+        {% for key, value in pruef_bt_beschreibung.items() %}
+            <div class="row">
+                {% if key == "BT_BESCHREIBUNG_FLANKEN" %}
+                <label for="{{ key }}" class="normal-weight-label" style="height: auto;">{{ labels[key] | safe }}:</label>
+                <textarea id="{{ key }}" name="pruef_bt_beschreibung[{{ key }}]" style="height: 100px; resize: vertical;" readonly>{{ value|safe }}</textarea>
+                <button type="button" class="edit-button" onclick="enableEditing(this)" >Bearbeiten</button>
+                {%endif%}
+            </div>
+            {% endfor %}
+
+    {% for i in range(1, 5) %}
+    <div class="flanke-block">
+        <div class="row">
+            <label for="Flanke{{ i }}">{{ labels['FLANKE' ~ i] | safe }}:</label>
+            <div class="input-numbers">
+                <textarea id="Flanke{{ i }}" name="pruef_bt_data[FLANKE_{{ i }}]" readonly>{{ pruef_bt_data['FLANKE' ~ i]|safe }}</textarea>
+                <select id="Flanke{{ i }}_dropdown" name="pruef_bt_data[FLANKE_{{ i }}]" style="display:none; width: 130px;" onchange="updateFlankeID({{ i }})">
+                    {% for key, value in BT_kategorien.items() %}
+                    <option value="{{ value }}" {{'selected' if pruef_bt_data['FLANKE' ~ i] == key else '' }}>{{ key }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, 'Flanke{{ i }}')">Bearbeiten</button>
+        </div>
+            <div class="row">
+                <label for="Flanke{{ i }}_ID" class="normal-weight-label">{{ labels['FLANKE' ~ i ~ '_ID'] | safe }}:</label>
+                <input
+                    id="Flanke{{ i }}_ID"
+                    name="pruef_bt_id[FLANKE_{{ i }}_ID]"
+                    value="{{ pruef_bt_id['FLANKE' ~ i ~ '_ID']|safe }}"
+                    readonly>
+            </div>
+
+            <div class="row">
+                <label for="Flanke{{ i }}_Material" class="normal-weight-label">{{ labels['FLANKE' ~ i ~ '_MATERIAL'] | safe }}:</label>
+                <textarea id="Flanke{{ i }}_Material" name="pruef_bt_material[FLANKE_{{ i }}_MATERIAL]" readonly>{{ pruef_bt_material['FLANKE' ~ i ~ '_MATERIAL']|safe }}</textarea>
+                <button type="button" class="edit-button" onclick="enableEditing(this, 'Flanke{{ i }}_Material')">Bearbeiten</button>
+            </div>
+        <div class="row">
+            <label for="Flanke{{ i }}_Masse" class="normal-weight-label">{{ labels['FLANKE' ~ i ~ '_MASSE'] | safe }}:</label>
+            <div class="input-numbers">
+                <textarea id="Flanke{{ i }}_Masse" name="pruef_bt_masse[FLANKE_{{ i }}_MASSE]" oninput="validateVolume(this)" readonly>{{ pruef_bt_masse['FLANKE' ~ i ~ '_MASSE']|safe }}</textarea>
+                <span id="Flanke{{ i }}_Masse-message" class="message" style="display: none;">Bitte geben Sie eine gültige flächenbezogene Masse an.<br>
+                                    Verwenden Sie einen Dezimalpunkt.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this, 'Flanke{{ i }}_Masse')">Bearbeiten</button>
+        </div>
+
+        <div class="row">
+            <label for="Flanke{{ i }}_Dicke" class="normal-weight-label">{{ labels['FLANKE' ~ i ~ '_DICKE'] | safe }}:</label>
+            <div class="input-numbers">
+                <textarea id="Flanke{{ i }}_Dicke" name="pruef_bt_dicke[FLANKE_{{ i }}_DICKE]" oninput="validateDimension(this)" readonly>{{ pruef_bt_dicke['FLANKE' ~ i ~ '_DICKE']|safe }}</textarea>
+                <span id="Flanke{{ i }}_Dicke-message" class="message" style="display: none;">Bitte geben Sie die Dicke mit maximal einer Nachkommastelle an.<br>
+                                    Verwenden Sie einen Dezimalpunkt.</span>
+            </div>
+            <button type="button" class="edit-button" onclick="enableEditing(this, 'Flanke{{ i }}_Dicke')">Bearbeiten</button>
+        </div>
+    </div>
+    {% endfor %}
+
+
+        <!-- Messwerte -->
+        <div class="section">
+            <h2>Messwerte</h2>
+            {% for key, value in pruef_gen_data.items() %}
+                {% if key not in ["MESSDATUM", "ZUSTAND", "ANLASS"] %}
+                    <div class="row">
+                        <label for="{{ key }}">{{ labels[key] | safe }}:</label>
+                        {% if key == "MESSRICHTUNG" %}
+                            <textarea id="{{ key }}" name="pruef_gen_data[{{ key }}]" readonly>{{ value|safe }}</textarea>
+                            <select id="{{ key }}_dropdown" name="pruef_gen_data[{{ key }}]" style="display:none;">
+                                {% for richtung in messrichtungen %}
+                                <option value="{{ richtung }}" {{'selected' if value == richtung else '' }}>{{ richtung }}</option>
+                                {% endfor %}
+                            </select>
+                            <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, '{{ key }}')">Bearbeiten</button>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+
+            <div class="row">
+                <label for="Messart">{{ labels['MESSART'] | safe }}:</label>
+                <textarea id="Messart" name="messart_data[MESSART]" readonly>{{ messart_data.MESSART|safe }}</textarea>
+                <select id="Messart_dropdown" name="messart_data[MESSART]" style="display:none;">
+                    {% for item in mess_para_id %}
+                    %} <option value="{{ item.Messart }}" {{'selected' if messart_data.MESSART == item.Messart else '' }}>{{ item.Messart }}</option>
+                    {% endfor %}
+                </select>
+                <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, 'Messart')">Bearbeiten</button>
+            </div>
+
+            <div class="row">
+                <label for="Messart_ID" class="normal-weight-label">{{ labels['M_ID'] | safe }}:</label>
+                <input
+                    id="Messart_ID"
+                    name="messart_data[M_ID]"
+                    value="{{ messart_data.M_ID|safe }}"
+                    readonly>
+            </div>
+
+        <!-- Parameter -->
+        <div class="row">
+            <label for="Parameter">{{ labels['PARAMETER'] | safe }}:</label>
+            <textarea id="Parameter" name="messart_data[PARAMETER]" readonly>{{ messart_data.PARAMETER|safe }}</textarea>
+            <select id="Parameter_dropdown" name="messart_data[PARAMETER]" style="display:none;">
+                <!-- Optionen werden dynamisch über JavaScript hinzugefügt -->
+            </select>
+            <button type="button" class="edit-button" onclick="enableEditingWithDropdown(this, 'Parameter')">Bearbeiten</button>
+        </div>
+
+        <div class="row">
+            <label for="Beschreibung" class="normal-weight-label">{{ labels['BESCHREIBUNG'] | safe }}:</label>
+            <input
+                    id="Beschreibung"
+                    name="messart_data[BESCHREIBUNG]"
+                    class="input-beschreibung"
+                    value="{{ messart_data.BESCHREIBUNG | safe }}"
+                    readonly>
+        </div>
+
+
+        <div class="row">
+            <label for="PS_ID" class="normal-weight-label">{{ labels['PS_ID'] | safe }}:</label>
+            <input
+                    id="PS_ID"
+                    name="messart_data[PS_ID]"
+                    value="{{ messart_data.PS_ID|safe }}"
+                    readonly>
+        </div>
+
+        <!-- Einzahlwert -->
+        <div class="section">
+            {% for key, value in spectrum_data.items() %}
+                {% if key == 'EINZAHLWERT' %}
+                <div class="row">
+                    <label for="{{ key }}">{{ labels[key] | safe }}:</label>
+                    <div class="input-numbers">
+                        <textarea id="{{ key }}" name="spectrum_data[{{ key }}]" oninput="validateSingleNumber(this)" readonly>{{ value }}</textarea>
+                        <span id="{{ key }}-message" class="message" style="display: none;">Bitte geben Sie einen gültigen Einzahlwert an.</span>
+                        {% if value is string and 'Bericht' in value and 'Berechnung' in value %}
+                            <span id="{{ key }}-error-message" class="message" style="display: block;">Der Wert der Berechnung unterscheidet sich von dem erfassten Wert des Berichts.</span>
+                        {% else %}
+                            <span id="{{ key }}-error-message" class="message" style="display: none;"></span>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="edit-button" onclick="enableEditing(this)">Bearbeiten</button>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+
+        <div class="row-measurement">
+
+        <!-- Messwerte -->
+        <div class="section">
+            <table class="measurement-table">
+                <thead>
+                    <tr>
+                        <th>Frequenz</th>
+                        <th>
+                            Messwert in dB
+
+                            <!-- Info-Icon -->
+                            <button type="button" class="info-icon" onclick="toggleInfo('info-messwerte')">
+                                ℹ️
+                            </button>
+
+                            <!-- Info-Feld -->
+                            <div class="info" id="info-messwerte">
+                                <p style="font-weight: normal;">Geben Sie bei fehlenden Messwerten "/" ein.</p>
+                                <p style="font-weight: normal;">Bei unvollständigen und nicht aussagekräftigen Messdaten löschen Sie den Datensatz bitte vollständig.</p>
+                            </div>
+
+                            <!-- Bearbeiten-Button -->
+                            <button type="button" class="edit-button edit-button-in-th" onclick="toggleTableEditing(this)" style="margin-left: 10px;">
+                                Bearbeiten
+                            </button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    {% for frequency, value in measurement_data.items() %}
+                    <tr>
+                        <td>{{ labels[frequency] }}</td>
+                        <td>
+                            <div class="input-numbers">
+                                <textarea id="{{ frequency }}" name="measurement_data[{{ frequency }}]" oninput="validateMeasurement(this); debouncedUpdateGraph()" readonly>{{ value|safe }}</textarea>
+                                <span id="{{ frequency }}-message" class="message" style="display: none;">
+                                    Bitte geben Sie den Messwert mit einer Dezimalstelle an.<br>
+                                    Verwenden Sie einen Dezimalpunkt.
+                                </span>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Werte -->
+        <div class="row" style="margin: 20px">
+            <img id="measurement-graph" src="{{ measurement_graph }}" alt="Measurement Data Graph">
+        </div>
+        </div>
+
+        <!-- Spektrumanpassungswerte -->
+        <div class="section">
+            <table class="spectrum-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Spektrumanpassungswert in dB
+                            <!-- Info-Icon -->
+                            <button type="button" class="info-icon" onclick="toggleInfo('info-anpassungswert')">
+                                ℹ️
+                            </button>
+                            <!-- Info-Feld -->
+                            <div class="info" id="info-anpassungswert">
+                                <p style="font-weight: normal;">Geben Sie bei fehlenden Anpassungswerten "-" ein.</p>
+                            </div>
+                            <button type="button" class="edit-button edit-button-in-th" onclick="toggleSpectrumTableEditing(this)" style="margin-left: 10px;">Bearbeiten</button></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key, value in spectrum_data.items() %}
+                        {% if key != 'EINZAHLWERT' %}
+                        <tr class="spectrum-row" data-key="{{ key }}">
+                            <td>{{ labels[key] | safe }}</td>
+                            <td>
+                                <div class="input-numbers">
+                                    <textarea id="{{ key }}" name="spectrum_data[{{ key }}]" oninput="validateSpectrum(this)" readonly>{{ value|safe }}</textarea>
+                                    <span id="{{ key }}-message" class="message" style="display: none;">
+                                        Bitte geben Sie einen gültigen Wert an.
+                                    </span>
+                                    {% if value is string and 'Bericht' in value and 'Berechnung' in value %}
+                                        <span id="{{ key }}-error-message" class="message" style="display: block;">Der Wert der Berechnung unterscheidet sich von dem erfassten Wert des Berichts.</span>
+                                    {% else %}
+                                        <span id="{{ key }}-error-message" class="message" style="display: none;"></span>
+                                    {% endif %}
+                                </div>
+                            </td>
+                        </tr>
+                        {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+{% if is_last_page %}
+<div class="info-box">
+    <p>Datenüberprüfung beenden.</p>
+    <button id="saveButton" type="button" class="save-button">Alle Daten speichern</button>
+</div>
+<div class="delete-box" style="border-color: #f44336; background-color: #fff3f3;">
+    <p style="font-size: 12px">
+        Der Datensatz aus Protokoll <strong>{{ current_index }}</strong> soll <strong>nicht</strong> gespeichert werden.<br>
+    </p>
+    <button id="deleteConfirmButton" type="button" class="delete-button">Datensatz löschen</button>
+</div>
+{% else %}
+<div class="info-box">
+    <p>Datensatz speichern und mit <strong>Protokoll {{ current_index + 1 }}</strong> fortfahren.</p>
+    <button id="nextButton" type="button" class="save-button">Nächster Bericht</button>
+</div>
+<div class="delete-box" style="border-color: #f44336; background-color: #fff3f3;">
+    <p style="font-size: 12px">
+        Der Datensatz aus Protokoll <strong>{{ current_index }}</strong> soll <strong>nicht</strong> gespeichert werden.<br>
+        Sie werden zum nächsten Protokoll weitergeleitet.
+    </p>
+    <button id="deleteNextButton" type="button" class="delete-button">Datensatz löschen</button>
+</div>
+{% endif %}
+
+
+
+        </form>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,419 @@
+{
+    "allgemeines": {
+        "baustelle_data": {
+            "baustelle_data[ANLASS]": "Anderer",
+            "baustelle_data[BAUJAHR]": "-",
+            "baustelle_data[BAUTYP]": "Holzleichtbau",
+            "baustelle_data[MESSBUERO]": "ig-bauphysik GmbH und Co. KG",
+            "baustelle_data[ZUSTAND]": "-"
+        },
+        "land_data": {
+            "land_data[BUNDESLAND]": "Bayern",
+            "land_data[LAND]": "Deutschland"
+        }
+    },
+    "measurement": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "31.08.2020",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "-",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "-",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwaende: Holzrahmenbauweise, Innenwaende: Trockenbau",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Massivholzdecke ca. 20 cm Fussbodenbelag augenscheinlich Parkett - 14,5 m²"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Holzrahmenbau",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Trockenbau",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "20"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "14.50",
+            "pruef_raum_data[VOLUMENEMPFANG]": "38",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "85"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "4",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "44"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "58.8",
+            "measurement_data[F0063]": "53.7",
+            "measurement_data[F0080]": "51.9",
+            "measurement_data[F0100]": "48.1",
+            "measurement_data[F0125]": "49.3",
+            "measurement_data[F0160]": "48.7",
+            "measurement_data[F0200]": "47.9",
+            "measurement_data[F0250]": "50.4",
+            "measurement_data[F0315]": "52.3",
+            "measurement_data[F0400]": "48.1",
+            "measurement_data[F0500]": "43.9",
+            "measurement_data[F0630]": "40.6",
+            "measurement_data[F0800]": "41.8",
+            "measurement_data[F1000]": "41.2",
+            "measurement_data[F1250]": "34.4",
+            "measurement_data[F1600]": "34.8",
+            "measurement_data[F2000]": "32.1",
+            "measurement_data[F2500]": "29.3",
+            "measurement_data[F3150]": "25.2",
+            "measurement_data[F4000]": "16.0",
+            "measurement_data[F5000]": "8.6"
+        }
+    },
+    "measurement_2": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "31.08.2020",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwaende: Holzrahmenbauweise, Innenwaende: Trockenbau, Wohnungstrennwand: Stahlbeton (22 - 25 cm)",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Massivholzdecke ca. 20 cm Fussbodenbelag augenscheinlich Parkett - 25,5 m²"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Holzrahmenbauweise",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Trockenbau",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "20"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "25.50",
+            "pruef_raum_data[VOLUMENEMPFANG]": "66",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "66"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "3",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "51"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "64.6",
+            "measurement_data[F0063]": "61.0",
+            "measurement_data[F0080]": "57.0",
+            "measurement_data[F0100]": "55.6",
+            "measurement_data[F0125]": "57.6",
+            "measurement_data[F0160]": "56.9",
+            "measurement_data[F0200]": "56.9",
+            "measurement_data[F0250]": "56.8",
+            "measurement_data[F0315]": "54.7",
+            "measurement_data[F0400]": "49.1",
+            "measurement_data[F0500]": "46.0",
+            "measurement_data[F0630]": "46.1",
+            "measurement_data[F0800]": "45.8",
+            "measurement_data[F1000]": "48.2",
+            "measurement_data[F1250]": "49.3",
+            "measurement_data[F1600]": "44.9",
+            "measurement_data[F2000]": "37.5",
+            "measurement_data[F2500]": "34.4",
+            "measurement_data[F3150]": "31.6",
+            "measurement_data[F4000]": "24.8",
+            "measurement_data[F5000]": "13.1"
+        }
+    },
+    "measurement_3": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "31.08.2020",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwaende: Holzrahmenbauweise, Innenwaende: Trockenbau, Wohnungstrennwand: Stahlbeton (22 - 25 cm)",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Massivholzdecke ca. 20 cm Fussbodenbelag augenscheinlich Parkett - 25,3 m²"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Holzrahmenbau",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Trockenbau",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "20"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "25.30",
+            "pruef_raum_data[VOLUMENEMPFANG]": "99",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "66"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "3",
+            "spectrum_data[CI]": "0",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "49"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "63.4",
+            "measurement_data[F0063]": "57.6",
+            "measurement_data[F0080]": "57.0",
+            "measurement_data[F0100]": "52.2",
+            "measurement_data[F0125]": "52.4",
+            "measurement_data[F0160]": "55.6",
+            "measurement_data[F0200]": "54.8",
+            "measurement_data[F0250]": "55.2",
+            "measurement_data[F0315]": "55.9",
+            "measurement_data[F0400]": "54.0",
+            "measurement_data[F0500]": "50.3",
+            "measurement_data[F0630]": "48.3",
+            "measurement_data[F0800]": "47.0",
+            "measurement_data[F1000]": "46.4",
+            "measurement_data[F1250]": "41.6",
+            "measurement_data[F1600]": "37.9",
+            "measurement_data[F2000]": "35.7",
+            "measurement_data[F2500]": "33.7",
+            "measurement_data[F3150]": "30.7",
+            "measurement_data[F4000]": "24.7",
+            "measurement_data[F5000]": "14.7"
+        }
+    },
+    "measurement_4": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "31.08.2020",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwaende: Holzrahmenbauweise, Innenwaende: Trockenbau, Wohnungstrennwand: Stahlbeton (22 - 25 cm)",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Massivholzdecke ca. 20 cm Bodenbelag: Pflaster im Splittbett - 16,4 m²"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Holzrahmenbauweise",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Trockenbau",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Massivholz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "25",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "20"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Aussenbereich",
+            "pruef_raum_data[TRENNFLAECHE]": "16.40",
+            "pruef_raum_data[VOLUMENEMPFANG]": "80",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "3",
+            "spectrum_data[CI]": "0",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "49"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "54.1",
+            "measurement_data[F0063]": "60.7",
+            "measurement_data[F0080]": "58.6",
+            "measurement_data[F0100]": "57.8",
+            "measurement_data[F0125]": "56.4",
+            "measurement_data[F0160]": "55.0",
+            "measurement_data[F0200]": "56.3",
+            "measurement_data[F0250]": "56.0",
+            "measurement_data[F0315]": "52.2",
+            "measurement_data[F0400]": "39.7",
+            "measurement_data[F0500]": "27.2",
+            "measurement_data[F0630]": "21.0",
+            "measurement_data[F0800]": "14.6",
+            "measurement_data[F1000]": "10.9",
+            "measurement_data[F1250]": "10.1",
+            "measurement_data[F1600]": "10.4",
+            "measurement_data[F2000]": "9.5",
+            "measurement_data[F2500]": "8.6",
+            "measurement_data[F3150]": "8.6",
+            "measurement_data[F4000]": "8.9",
+            "measurement_data[F5000]": "9.5"
+        }
+    }
+}

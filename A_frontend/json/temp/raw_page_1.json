@@ -1,0 +1,258 @@
+{
+    "baustelle_data[MESSBUERO]": [
+        "MÃ¼ller-BBM"
+    ],
+    "baustelle_data[BAUTYP]": [
+        "Holzleichtbau",
+        "Holzleichtbau"
+    ],
+    "baustelle_data[BAUJAHR]": [
+        "-"
+    ],
+    "baustelle_data[ZUSTAND]": [
+        "-",
+        "Neubau"
+    ],
+    "baustelle_data[ANLASS]": [
+        "Anderer",
+        "Anderer"
+    ],
+    "pruef_gen_data[MESSDATUM]": [
+        "30.08.2023",
+        ""
+    ],
+    "land_data[LAND]": [
+        "-",
+        "Deutschland"
+    ],
+    "land_data[BUNDESLAND]": [
+        "-"
+    ],
+    "sonstiges_data[ANMERKUNGEN]": [
+        "-"
+    ],
+    "pruef_raum_data[SENDERAUM]": [
+        "Schlafen in WG",
+        ""
+    ],
+    "pruef_raum_data[VOLUMENSENDERAUM]": [
+        "34"
+    ],
+    "pruef_raum_data[EMPFANGSRAUM]": [
+        "Schlafen in WG",
+        ""
+    ],
+    "pruef_raum_data[VOLUMENEMPFANG]": [
+        "34"
+    ],
+    "pruef_raum_data[TRENNFLAECHE]": [
+        "13.41"
+    ],
+    "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": [
+        "Wohnungstrenndecke Bodenaufbau (gemaess Detail D.004 Fa. HuberundSohn): 15 mm Parkett 65 mm Heizestrich 0,1 mm Trennlage 30 mm Trittschalldaemmung 120 mm Kiesschuettung ca. 0 mm Witterungsschutz Solitex Adhero 160 mm Massivholzdecke 2x 12,5 mm Gipskartonbeplankung"
+    ],
+    "pruef_bt_data[TRENNBAUTEIL]": [
+        "Decke",
+        "1"
+    ],
+    "pruef_bt_id[TRENNBAUTEIL_ID]": [
+        "1"
+    ],
+    "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": [
+        "Massivholz"
+    ],
+    "pruef_bt_material[TRENNBAUTEIL_BAUART]": [
+        "Typ A",
+        "Typ A"
+    ],
+    "pruef_bt_masse[TRENNBAUTEIL_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": [
+        "16"
+    ],
+    "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": [
+        "Aussenwand in Holzrahmenbauweise mit Vorsatzschale Flurwand aus Stahlbeton Wohnungsinnenwaende in Holzrahmenbauweise 63 125 250 500 1000 2000 4000 Frequenz f / Hz Bd / 'R ssaM-mmaedllahcS-uaB"
+    ],
+    "pruef_bt_data[FLANKE_1]": [
+        "Gesamtfassade",
+        "6"
+    ],
+    "pruef_bt_id[FLANKE_1_ID]": [
+        "6"
+    ],
+    "pruef_bt_material[FLANKE_1_MATERIAL]": [
+        "Holzrahmenbau"
+    ],
+    "pruef_bt_masse[FLANKE_1_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_1_DICKE]": [
+        "-"
+    ],
+    "pruef_bt_data[FLANKE_2]": [
+        "Wand",
+        "2"
+    ],
+    "pruef_bt_id[FLANKE_2_ID]": [
+        "2"
+    ],
+    "pruef_bt_material[FLANKE_2_MATERIAL]": [
+        "Stahlbeton"
+    ],
+    "pruef_bt_masse[FLANKE_2_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_2_DICKE]": [
+        "-"
+    ],
+    "pruef_bt_data[FLANKE_3]": [
+        "Wand",
+        "2"
+    ],
+    "pruef_bt_id[FLANKE_3_ID]": [
+        "2"
+    ],
+    "pruef_bt_material[FLANKE_3_MATERIAL]": [
+        "Holzrahmenbau"
+    ],
+    "pruef_bt_masse[FLANKE_3_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_3_DICKE]": [
+        "-"
+    ],
+    "pruef_bt_data[FLANKE_4]": [
+        "Wand",
+        "2"
+    ],
+    "pruef_bt_id[FLANKE_4_ID]": [
+        "2"
+    ],
+    "pruef_bt_material[FLANKE_4_MATERIAL]": [
+        "Holzrahmenbau"
+    ],
+    "pruef_bt_masse[FLANKE_4_MASSE]": [
+        "-"
+    ],
+    "pruef_bt_dicke[FLANKE_4_DICKE]": [
+        "-"
+    ],
+    "pruef_gen_data[MESSRICHTUNG]": [
+        "-",
+        "horizontal"
+    ],
+    "messart_data[MESSART]": [
+        "Luftschalldaemmung",
+        "Luftschalldaemmung"
+    ],
+    "messart_data[M_ID]": [
+        "1"
+    ],
+    "messart_data[PARAMETER]": [
+        "D",
+        ""
+    ],
+    "messart_data[BESCHREIBUNG]": [
+        "Schallpegeldifferenz"
+    ],
+    "messart_data[PS_ID]": [
+        "1"
+    ],
+    "spectrum_data[EINZAHLWERT]": [
+        "67"
+    ],
+    "measurement_data[F0050]": [
+        "12.3"
+    ],
+    "measurement_data[F0063]": [
+        "40.7"
+    ],
+    "measurement_data[F0080]": [
+        "45.8"
+    ],
+    "measurement_data[F0100]": [
+        "45.4"
+    ],
+    "measurement_data[F0125]": [
+        "55.6"
+    ],
+    "measurement_data[F0160]": [
+        "56.8"
+    ],
+    "measurement_data[F0200]": [
+        "53.8"
+    ],
+    "measurement_data[F0250]": [
+        "60.1"
+    ],
+    "measurement_data[F0315]": [
+        "61.0"
+    ],
+    "measurement_data[F0400]": [
+        "60.4"
+    ],
+    "measurement_data[F0500]": [
+        "61.6"
+    ],
+    "measurement_data[F0630]": [
+        "64.8"
+    ],
+    "measurement_data[F0800]": [
+        "66.6"
+    ],
+    "measurement_data[F1000]": [
+        "70.1"
+    ],
+    "measurement_data[F1250]": [
+        "71.8"
+    ],
+    "measurement_data[F1600]": [
+        "73.9"
+    ],
+    "measurement_data[F2000]": [
+        "73.9"
+    ],
+    "measurement_data[F2500]": [
+        "71.1"
+    ],
+    "measurement_data[F3150]": [
+        "70.4"
+    ],
+    "measurement_data[F4000]": [
+        "75.0"
+    ],
+    "measurement_data[F5000]": [
+        "77.8"
+    ],
+    "spectrum_data[C]": [
+        "-1"
+    ],
+    "spectrum_data[C50B3150]": [
+        "-15"
+    ],
+    "spectrum_data[C50B5000]": [
+        "-14"
+    ],
+    "spectrum_data[C100B5000]": [
+        "0"
+    ],
+    "spectrum_data[CTR]": [
+        "-5"
+    ],
+    "spectrum_data[CTR50B3150]": [
+        "-30"
+    ],
+    "spectrum_data[CTR50B5000]": [
+        "-30"
+    ],
+    "spectrum_data[CTR100B5000]": [
+        "-5"
+    ],
+    "spectrum_data[CI]": [
+        "-"
+    ],
+    "spectrum_data[CI50B2500]": [
+        "-"
+    ]
+}

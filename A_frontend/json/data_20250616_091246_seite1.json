@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Stahlbau",
+        "baustelle_data[MESSBUERO]": "Müller-BBM",
+        "baustelle_data[ZUSTAND]": "Neubau"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "Bayern",
+        "land_data[LAND]": "Deutschland"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "02.06.2014",
+        "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+            "pruef_bt_data[FLANKE_2]": "Gesamtfassade",
+            "pruef_bt_data[FLANKE_3]": "Decke",
+            "pruef_bt_data[FLANKE_4]": "-",
+            "pruef_bt_data[TRENNBAUTEIL]": "Gesamtfassade"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "6",
+            "pruef_bt_id[FLANKE_2_ID]": "6",
+            "pruef_bt_id[FLANKE_3_ID]": "1",
+            "pruef_bt_id[FLANKE_4_ID]": "-",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "6"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Suedfassade ohne geschlossene variable Trennwand Messzustand: - ohne geschlossene variable Trennwand \r\n2-geschossige Pfosten-Riegel-Fassade, Glas- und Stahlkonstruktion, 2 zweiflügelige und 2 einflügelige Glastürelemente mit Alu-Rahmen im Parkett, EG\r\n"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ B",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Pfosten-Riegel"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "Sonstiger Aufenthaltsraum",
+        "pruef_raum_data[SENDERAUM]": "Aussenbereich",
+        "pruef_raum_data[TRENNFLAECHE]": "-",
+        "pruef_raum_data[VOLUMENEMPFANG]": "12000",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "-"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Schallpegeldifferenz",
+        "messart_data[MESSART]": "Luftschalldaemmung",
+        "messart_data[M_ID]": "1",
+        "messart_data[PARAMETER]": "D",
+        "messart_data[PS_ID]": "1"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-1",
+        "spectrum_data[C50B3150]": "0",
+        "spectrum_data[C50B5000]": "0",
+        "spectrum_data[CI50B2500]": "-",
+        "spectrum_data[CI]": "-",
+        "spectrum_data[CTR100B5000]": "-3",
+        "spectrum_data[CTR50B3150]": "0",
+        "spectrum_data[CTR50B5000]": "0",
+        "spectrum_data[CTR]": "-3",
+        "spectrum_data[C]": "-1",
+        "spectrum_data[EINZAHLWERT]": "36"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "/",
+        "measurement_data[F0063]": "/",
+        "measurement_data[F0080]": "/",
+        "measurement_data[F0100]": "29.1",
+        "measurement_data[F0125]": "25.1",
+        "measurement_data[F0160]": "24.7",
+        "measurement_data[F0200]": "31.1",
+        "measurement_data[F0250]": "33.8",
+        "measurement_data[F0315]": "36.1",
+        "measurement_data[F0400]": "35.7",
+        "measurement_data[F0500]": "34.4",
+        "measurement_data[F0630]": "33.3",
+        "measurement_data[F0800]": "32.4",
+        "measurement_data[F1000]": "29.2",
+        "measurement_data[F1250]": "34.1",
+        "measurement_data[F1600]": "40.8",
+        "measurement_data[F2000]": "44.9",
+        "measurement_data[F2500]": "45.4",
+        "measurement_data[F3150]": "43.2",
+        "measurement_data[F4000]": "36.7",
+        "measurement_data[F5000]": "42.8"
+    }
+}

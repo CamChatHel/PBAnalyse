@@ -1,0 +1,823 @@
+{
+    "allgemeines": {
+        "baustelle_data": {
+            "baustelle_data[ANLASS]": "Anderer",
+            "baustelle_data[BAUJAHR]": "-",
+            "baustelle_data[BAUTYP]": "Andere",
+            "baustelle_data[MESSBUERO]": "Müller-BBM",
+            "baustelle_data[ZUSTAND]": "-"
+        },
+        "land_data": {
+            "land_data[BUNDESLAND]": "Bayern",
+            "land_data[LAND]": "Deutschland"
+        }
+    },
+    "measurement": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "12.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Treppenhauswand: 220 mm Stahlbetonwand - Innenwaende: 100 mm Gipskartonstaenderwand",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke - Parkettbelag - schwimmender Estrichaufbau mit Trittschalldaemmung - Stahlbetondecke"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "13.31",
+            "pruef_raum_data[VOLUMENEMPFANG]": "33",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "33"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "R'",
+            "messart_data[PS_ID]": "4"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "0",
+            "spectrum_data[C50B3150]": "-2",
+            "spectrum_data[C50B5000]": "-1",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-6",
+            "spectrum_data[CTR50B3150]": "-9",
+            "spectrum_data[CTR50B5000]": "-9",
+            "spectrum_data[CTR]": "-6",
+            "spectrum_data[C]": "-1",
+            "spectrum_data[EINZAHLWERT]": "65"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "34.2",
+            "measurement_data[F0063]": "43.5",
+            "measurement_data[F0080]": "49.5",
+            "measurement_data[F0100]": "48.3",
+            "measurement_data[F0125]": "53.0",
+            "measurement_data[F0160]": "51.5",
+            "measurement_data[F0200]": "51.2",
+            "measurement_data[F0250]": "49.3",
+            "measurement_data[F0315]": "57.5",
+            "measurement_data[F0400]": "59.6",
+            "measurement_data[F0500]": "62.3",
+            "measurement_data[F0630]": "64.6",
+            "measurement_data[F0800]": "66.6",
+            "measurement_data[F1000]": "69.5",
+            "measurement_data[F1250]": "72.2",
+            "measurement_data[F1600]": "74.4",
+            "measurement_data[F2000]": "76.1",
+            "measurement_data[F2500]": "78.3",
+            "measurement_data[F3150]": "81.7",
+            "measurement_data[F4000]": "84.5",
+            "measurement_data[F5000]": "85.8"
+        }
+    },
+    "measurement_2": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "12.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Decke",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "1",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Innenwaende: 100 mm Gipskartonstaenderwaende - Decken: Parkettbelag, schwimmender Estrichaufbau, Trittschalldaemmung, Stahlbetondecke",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrennwand - 220 mm Stahlbetonwand"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "22"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "8.30",
+            "pruef_raum_data[VOLUMENEMPFANG]": "27",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "64"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Schallpegeldifferenz",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "Dn",
+            "messart_data[PS_ID]": "2"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-1",
+            "spectrum_data[C50B3150]": "-2",
+            "spectrum_data[C50B5000]": "-1",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-6",
+            "spectrum_data[CTR50B3150]": "-6",
+            "spectrum_data[CTR50B5000]": "-6",
+            "spectrum_data[CTR]": "-6",
+            "spectrum_data[C]": "-2",
+            "spectrum_data[EINZAHLWERT]": "63"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "49.1",
+            "measurement_data[F0063]": "52.6",
+            "measurement_data[F0080]": "52.4",
+            "measurement_data[F0100]": "41.6",
+            "measurement_data[F0125]": "48.7",
+            "measurement_data[F0160]": "50.0",
+            "measurement_data[F0200]": "52.6",
+            "measurement_data[F0250]": "53.1",
+            "measurement_data[F0315]": "56.3",
+            "measurement_data[F0400]": "52.7",
+            "measurement_data[F0500]": "59.5",
+            "measurement_data[F0630]": "59.6",
+            "measurement_data[F0800]": "63.0",
+            "measurement_data[F1000]": "65.6",
+            "measurement_data[F1250]": "67.4",
+            "measurement_data[F1600]": "71.3",
+            "measurement_data[F2000]": "72.5",
+            "measurement_data[F2500]": "74.9",
+            "measurement_data[F3150]": "77.2",
+            "measurement_data[F4000]": "79.8",
+            "measurement_data[F5000]": "81.1"
+        }
+    },
+    "measurement_3": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "12.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Wand",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "-",
+                "pruef_bt_data[TRENNBAUTEIL]": "Tuer"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "2",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "-",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "3"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "- 220 mm Stahlbetonwand",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungseingangstuer - JELD-WEN Schallschutztuer Rw,R = 37 dB, Typ 48/ SK3 - Tuerflaeche: Breite x Hoehe = 1,00 m x 2,10 m = 2,10 m² - 48 mm dickes, einfach gefalztes Holztuerblatt mit 2 Baendern, einer Dichtungsebene und einer einseitig ausloesenden Absenkdichtung auf Parkettbelag absenkend - einfach gefalzte Stahlzarge mit einer Hohlkammerdichtungsebene"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Holz"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "4.8"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Nebenraum",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "2.10",
+            "pruef_raum_data[VOLUMENEMPFANG]": "28",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "80"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Bau-Schalldaemm-Mass",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "R'",
+            "messart_data[PS_ID]": "4"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-1",
+            "spectrum_data[C50B3150]": "-1",
+            "spectrum_data[C50B5000]": "-1",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-3",
+            "spectrum_data[CTR50B3150]": "-3",
+            "spectrum_data[CTR50B5000]": "-3",
+            "spectrum_data[CTR]": "-3",
+            "spectrum_data[C]": "-1",
+            "spectrum_data[EINZAHLWERT]": "38"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "29.5",
+            "measurement_data[F0063]": "31.2",
+            "measurement_data[F0080]": "30.1",
+            "measurement_data[F0100]": "30.1",
+            "measurement_data[F0125]": "29.6",
+            "measurement_data[F0160]": "28.5",
+            "measurement_data[F0200]": "30.6",
+            "measurement_data[F0250]": "30.9",
+            "measurement_data[F0315]": "33.9",
+            "measurement_data[F0400]": "35.6",
+            "measurement_data[F0500]": "34.8",
+            "measurement_data[F0630]": "34.1",
+            "measurement_data[F0800]": "32.1",
+            "measurement_data[F1000]": "39.6",
+            "measurement_data[F1250]": "40.2",
+            "measurement_data[F1600]": "41.0",
+            "measurement_data[F2000]": "39.8",
+            "measurement_data[F2500]": "38.7",
+            "measurement_data[F3150]": "39.8",
+            "measurement_data[F4000]": "42.4",
+            "measurement_data[F5000]": "43.5"
+        }
+    },
+    "measurement_4": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "24.09.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Decke",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Wand"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "1",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "2"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Innenwaende: 100 mm Gipskartonstaenderwaende - Decken: Parkettbelag, schwimmender Estrichaufbau, Trittschalldaemmung, Stahlbetondecke",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrennwand - 220 mm Stahlbetonwand"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "22"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Wohnen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "1.20",
+            "pruef_raum_data[VOLUMENEMPFANG]": "68",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "12"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Schallpegeldifferenz",
+            "messart_data[MESSART]": "Luftschalldaemmung",
+            "messart_data[M_ID]": "1",
+            "messart_data[PARAMETER]": "Dn",
+            "messart_data[PS_ID]": "2"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-1",
+            "spectrum_data[C50B3150]": "-2",
+            "spectrum_data[C50B5000]": "-1",
+            "spectrum_data[CI50B2500]": "-",
+            "spectrum_data[CI]": "-",
+            "spectrum_data[CTR100B5000]": "-5",
+            "spectrum_data[CTR50B3150]": "-6",
+            "spectrum_data[CTR50B5000]": "-6",
+            "spectrum_data[CTR]": "-5",
+            "spectrum_data[C]": "-2",
+            "spectrum_data[EINZAHLWERT]": "71"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "65.7",
+            "measurement_data[F0063]": "51.8",
+            "measurement_data[F0080]": "56.4",
+            "measurement_data[F0100]": "55.7",
+            "measurement_data[F0125]": "58.3",
+            "measurement_data[F0160]": "58.2",
+            "measurement_data[F0200]": "58.3",
+            "measurement_data[F0250]": "59.9",
+            "measurement_data[F0315]": "62.1",
+            "measurement_data[F0400]": "62.0",
+            "measurement_data[F0500]": "67.1",
+            "measurement_data[F0630]": "68.6",
+            "measurement_data[F0800]": "70.8",
+            "measurement_data[F1000]": "72.4",
+            "measurement_data[F1250]": "75.8",
+            "measurement_data[F1600]": "77.3",
+            "measurement_data[F2000]": "77.4",
+            "measurement_data[F2500]": "79.9",
+            "measurement_data[F3150]": "81.3",
+            "measurement_data[F4000]": "83.6",
+            "measurement_data[F5000]": "83.6"
+        }
+    },
+    "measurement_5": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "12.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "vertikal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Treppenhauswand: 220 mm Stahlbetonwand - Innenwaende: 100 mm Gipskartonstaenderwand",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke mit Parkettbelag ( - Parkettbelag - schwimmender Estrichaufbau mit Trittschalldaemmung - Stahlbetondecke)"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "10",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Schlafen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "33",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "33"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "7",
+            "spectrum_data[CI]": "-1",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "33"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "53.5",
+            "measurement_data[F0063]": "42.9",
+            "measurement_data[F0080]": "38.6",
+            "measurement_data[F0100]": "35.5",
+            "measurement_data[F0125]": "37.0",
+            "measurement_data[F0160]": "39.2",
+            "measurement_data[F0200]": "36.7",
+            "measurement_data[F0250]": "35.7",
+            "measurement_data[F0315]": "35.9",
+            "measurement_data[F0400]": "35.9",
+            "measurement_data[F0500]": "34.5",
+            "measurement_data[F0630]": "35.3",
+            "measurement_data[F0800]": "33.2",
+            "measurement_data[F1000]": "33.2",
+            "measurement_data[F1250]": "30.1",
+            "measurement_data[F1600]": "24.9",
+            "measurement_data[F2000]": "19.4",
+            "measurement_data[F2500]": "12.9",
+            "measurement_data[F3150]": "7.1",
+            "measurement_data[F4000]": "4.5",
+            "measurement_data[F5000]": "3.6"
+        }
+    },
+    "measurement_6": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "19.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "-"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "- Anregung mit dem Norm-Hammerwerk auf den Trittstufen 2, 5, 8, 11 und 14 von unten nach oben"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Treppenlauf"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "7"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Treppenhauswand: 220 mm Stahlbetonwand - Innenwaende: 100 mm Gipskartonstaenderwand - Decken: Parkettbelag, schwimmender Estrichaufbau, Trittschalldaemmung, Stahlbetondecke",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Treppenlauf vom EG zum 1. OG mit Natursteinbelag - Natursteinbelag - gewendelter Stahlbetonfertigteil-Treppenlauf, elastisch gelagert "
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "36",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "80"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "-6",
+            "spectrum_data[CI]": "-7",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "37"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "39.7",
+            "measurement_data[F0063]": "35.2",
+            "measurement_data[F0080]": "32.7",
+            "measurement_data[F0100]": "31.7",
+            "measurement_data[F0125]": "35.9",
+            "measurement_data[F0160]": "30.4",
+            "measurement_data[F0200]": "33.2",
+            "measurement_data[F0250]": "31.4",
+            "measurement_data[F0315]": "32.1",
+            "measurement_data[F0400]": "30.4",
+            "measurement_data[F0500]": "28.2",
+            "measurement_data[F0630]": "31.4",
+            "measurement_data[F0800]": "36.6",
+            "measurement_data[F1000]": "35.1",
+            "measurement_data[F1250]": "33.4",
+            "measurement_data[F1600]": "31.2",
+            "measurement_data[F2000]": "30.3",
+            "measurement_data[F2500]": "30.6",
+            "measurement_data[F3150]": "26.6",
+            "measurement_data[F4000]": "23.8",
+            "measurement_data[F5000]": "18.7"
+        }
+    },
+    "measurement_7": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "19.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "horizontal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Decke",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "1",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Treppenhauswand: 220 mm Stahlbetonwand - Innenwaende: 100 mm Gipskartonstaenderwaende - Decken: Parkettbelag, schwimmender Estrichaufbau, Trittschalldaemmung, Stahlbetondecke",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Treppenhausflur mit Natursteinbelag ( - Natursteinbelag - schwimmender Estrichaufbau mit Trittschalldaemmung - Stahlbetondecke)"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Nebenraum",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "26",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "80"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "-9",
+            "spectrum_data[CI]": "-9",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "48"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "38.2",
+            "measurement_data[F0063]": "40.8",
+            "measurement_data[F0080]": "41.5",
+            "measurement_data[F0100]": "41.5",
+            "measurement_data[F0125]": "37.9",
+            "measurement_data[F0160]": "34.6",
+            "measurement_data[F0200]": "38.1",
+            "measurement_data[F0250]": "40.7",
+            "measurement_data[F0315]": "45.3",
+            "measurement_data[F0400]": "47.4",
+            "measurement_data[F0500]": "44.5",
+            "measurement_data[F0630]": "41.5",
+            "measurement_data[F0800]": "38.7",
+            "measurement_data[F1000]": "38.8",
+            "measurement_data[F1250]": "38.2",
+            "measurement_data[F1600]": "40.4",
+            "measurement_data[F2000]": "41.4",
+            "measurement_data[F2500]": "42.6",
+            "measurement_data[F3150]": "42.2",
+            "measurement_data[F4000]": "37.6",
+            "measurement_data[F5000]": "30.1"
+        }
+    },
+    "measurement_8": {
+        "pruef_gen_data": {
+            "pruef_gen_data[MESSDATUM]": "19.03.2018",
+            "pruef_gen_data[MESSRICHTUNG]": "diagonal"
+        },
+        "sonstiges_data": {
+            "sonstiges_data[ANMERKUNGEN]": "-"
+        },
+        "pruef_bt_data": [
+            {
+                "pruef_bt_data[FLANKE_1]": "Gesamtfassade",
+                "pruef_bt_data[FLANKE_2]": "Wand",
+                "pruef_bt_data[FLANKE_3]": "Wand",
+                "pruef_bt_data[FLANKE_4]": "Wand",
+                "pruef_bt_data[TRENNBAUTEIL]": "Decke"
+            },
+            {
+                "pruef_bt_id[FLANKE_1_ID]": "6",
+                "pruef_bt_id[FLANKE_2_ID]": "2",
+                "pruef_bt_id[FLANKE_3_ID]": "2",
+                "pruef_bt_id[FLANKE_4_ID]": "2",
+                "pruef_bt_id[TRENNBAUTEIL_ID]": "1"
+            },
+            {
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "Aussenwand: 220 mm Stahlbetonwand mit 160 mm WDVS - Treppenhauswand: 220 mm Stahlbetonwand - Innenwaende: 100 mm Gipskartonstaenderwand",
+                "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Wohnungstrenndecke mit Fliesenbelag ( - Fliesenbelag - schwimmender Estrichaufbau mit Trittschalldaemmung - Stahlbetondecke"
+            },
+            {
+                "pruef_bt_material[FLANKE_1_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_2_MATERIAL]": "Stahlbeton",
+                "pruef_bt_material[FLANKE_3_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[FLANKE_4_MATERIAL]": "Gipskarton",
+                "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+                "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "Stahlbeton"
+            },
+            {
+                "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+                "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+                "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+            },
+            {
+                "pruef_bt_dicke[FLANKE_1_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_2_DICKE]": "22",
+                "pruef_bt_dicke[FLANKE_3_DICKE]": "10",
+                "pruef_bt_dicke[FLANKE_4_DICKE]": "10",
+                "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "-"
+            }
+        ],
+        "pruef_raum_data": {
+            "pruef_raum_data[EMPFANGSRAUM]": "Schlafen in WG",
+            "pruef_raum_data[SENDERAUM]": "Wohnen in WG",
+            "pruef_raum_data[TRENNFLAECHE]": "-",
+            "pruef_raum_data[VOLUMENEMPFANG]": "36",
+            "pruef_raum_data[VOLUMENSENDERAUM]": "14"
+        },
+        "messart_data": {
+            "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+            "messart_data[MESSART]": "Trittschalldaemmung",
+            "messart_data[M_ID]": "2",
+            "messart_data[PARAMETER]": "L'n",
+            "messart_data[PS_ID]": "5"
+        },
+        "spectrum_data": {
+            "spectrum_data[C100B5000]": "-",
+            "spectrum_data[C50B3150]": "-",
+            "spectrum_data[C50B5000]": "-",
+            "spectrum_data[CI50B2500]": "11",
+            "spectrum_data[CI]": "-2",
+            "spectrum_data[CTR100B5000]": "-",
+            "spectrum_data[CTR50B3150]": "-",
+            "spectrum_data[CTR50B5000]": "-",
+            "spectrum_data[CTR]": "-",
+            "spectrum_data[C]": "-",
+            "spectrum_data[EINZAHLWERT]": "34"
+        },
+        "measurement_data": {
+            "measurement_data[F0050]": "59.1",
+            "measurement_data[F0063]": "50.3",
+            "measurement_data[F0080]": "46.8",
+            "measurement_data[F0100]": "40.0",
+            "measurement_data[F0125]": "44.2",
+            "measurement_data[F0160]": "39.0",
+            "measurement_data[F0200]": "35.4",
+            "measurement_data[F0250]": "29.7",
+            "measurement_data[F0315]": "32.0",
+            "measurement_data[F0400]": "28.1",
+            "measurement_data[F0500]": "29.5",
+            "measurement_data[F0630]": "27.5",
+            "measurement_data[F0800]": "29.0",
+            "measurement_data[F1000]": "26.2",
+            "measurement_data[F1250]": "28.0",
+            "measurement_data[F1600]": "25.9",
+            "measurement_data[F2000]": "23.1",
+            "measurement_data[F2500]": "23.6",
+            "measurement_data[F3150]": "20.1",
+            "measurement_data[F4000]": "16.4",
+            "measurement_data[F5000]": "11.5"
+        }
+    }
+}

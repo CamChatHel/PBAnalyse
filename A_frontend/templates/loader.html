@@ -1,0 +1,64 @@
+<!-- loader.html (Partial) -->
+<div id="overlay"></div>
+<div id="loader"></div>
+
+<style>
+  /* Loader-Spinner */
+  #loader {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      width: 50px;
+      height: 50px;
+      border: 5px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 5px solid #3498db;
+      animation: spin 1s linear infinite;
+      display: none;
+      z-index: 1000;
+  }
+
+  @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+
+  /* Overlay */
+  #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+      display: none;
+  }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Loader-Script geladen");
+
+    // Loader-Elemente abrufen
+    const overlay = document.getElementById("overlay");
+    const loader = document.getElementById("loader");
+
+    // Funktion zum Anzeigen des Loaders
+    function showLoader() {
+        console.log("showLoader aufgerufen");
+        if (overlay) overlay.style.display = "block";
+        if (loader) loader.style.display = "block";
+    }
+
+    // Funktion zum Ausblenden des Loaders
+    function hideLoader() {
+        if (overlay) overlay.style.display = "none";
+        if (loader) loader.style.display = "none";
+    }
+
+    // Funktionen global verfügbar machen
+    window.showLoader = showLoader;
+    window.hideLoader = hideLoader;
+});
+</script>

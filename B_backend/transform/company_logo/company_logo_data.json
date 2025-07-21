@@ -1,0 +1,11 @@
+{
+    "images": [
+        {"file": "Beispiel_Ingenieure.png", "company": "Beispiel GmbH"},
+        {"file": "akustikbuero_dahms.png", "company": "AKUSTIKBUERODAHMS GmbH"},
+        {"file": "Kurz_Fischer.jpg", "company": "Kurz und Fischer GmbH"},
+        {"file": "mueller_bbm.png", "company": "Müller-BBM"},
+        {"file": "accon.png", "company": "ACCON GmbH"},
+        {"file": "PMI.png", "company": "PMI GmbH"},
+        {"file": "igbau.png", "company": "ig-bauphysik GmbH & Co. KG"}
+    ]
+}

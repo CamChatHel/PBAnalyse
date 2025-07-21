@@ -1,0 +1,112 @@
+{
+    "baustelle_data": {
+        "baustelle_data[ANLASS]": "Anderer",
+        "baustelle_data[BAUJAHR]": "-",
+        "baustelle_data[BAUTYP]": "Andere",
+        "baustelle_data[MESSBUERO]": "IB Bloedt",
+        "baustelle_data[ZUSTAND]": "-"
+    },
+    "land_data": {
+        "land_data[BUNDESLAND]": "-",
+        "land_data[LAND]": "-"
+    },
+    "sonstiges_data": {
+        "sonstiges_data[ANMERKUNGEN]": "-"
+    },
+    "pruef_gen_data": {
+        "pruef_gen_data[MESSDATUM]": "15.10.2022",
+        "pruef_gen_data[MESSRICHTUNG]": "-"
+    },
+    "pruef_bt_data": [
+        {
+            "pruef_bt_data[FLANKE_1]": "-",
+            "pruef_bt_data[FLANKE_2]": "-",
+            "pruef_bt_data[FLANKE_3]": "-",
+            "pruef_bt_data[FLANKE_4]": "-",
+            "pruef_bt_data[TRENNBAUTEIL]": "Fussbodenaufbau"
+        },
+        {
+            "pruef_bt_id[FLANKE_1_ID]": "-",
+            "pruef_bt_id[FLANKE_2_ID]": "-",
+            "pruef_bt_id[FLANKE_3_ID]": "-",
+            "pruef_bt_id[FLANKE_4_ID]": "-",
+            "pruef_bt_id[TRENNBAUTEIL_ID]": "5"
+        },
+        {
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_FLANKEN]": "-",
+            "pruef_bt_beschreibung[BT_BESCHREIBUNG_TRENN]": "Hohlboden wie erste Messung Parkett / Integralboden je 1 Pad oben und unten / Knauf Integral 4mm Knirschschutz 18mm OSB / 90 kg/m² Koehnke K102 Splittschuettung / 170 mm CLT"
+        },
+        {
+            "pruef_bt_material[FLANKE_1_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_2_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_3_MATERIAL]": "-",
+            "pruef_bt_material[FLANKE_4_MATERIAL]": "-",
+            "pruef_bt_material[TRENNBAUTEIL_BAUART]": "Typ A",
+            "pruef_bt_material[TRENNBAUTEIL_MATERIAL]": "CLT"
+        },
+        {
+            "pruef_bt_masse[FLANKE_1_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_2_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_3_MASSE]": "-",
+            "pruef_bt_masse[FLANKE_4_MASSE]": "-",
+            "pruef_bt_masse[TRENNBAUTEIL_MASSE]": "-"
+        },
+        {
+            "pruef_bt_dicke[FLANKE_1_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_2_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_3_DICKE]": "-",
+            "pruef_bt_dicke[FLANKE_4_DICKE]": "-",
+            "pruef_bt_dicke[TRENNBAUTEIL_DICKE]": "17"
+        }
+    ],
+    "pruef_raum_data": {
+        "pruef_raum_data[EMPFANGSRAUM]": "-",
+        "pruef_raum_data[SENDERAUM]": "-",
+        "pruef_raum_data[TRENNFLAECHE]": "-",
+        "pruef_raum_data[VOLUMENEMPFANG]": "88",
+        "pruef_raum_data[VOLUMENSENDERAUM]": "89"
+    },
+    "messart_data": {
+        "messart_data[BESCHREIBUNG]": "Norm-Trittschallpegel",
+        "messart_data[MESSART]": "Trittschalldaemmung",
+        "messart_data[M_ID]": "2",
+        "messart_data[PARAMETER]": "L'n",
+        "messart_data[PS_ID]": "5"
+    },
+    "spectrum_data": {
+        "spectrum_data[C100B5000]": "-",
+        "spectrum_data[C50B3150]": "-",
+        "spectrum_data[C50B5000]": "-",
+        "spectrum_data[CI50B2500]": "1",
+        "spectrum_data[CI]": "0",
+        "spectrum_data[CTR100B5000]": "-",
+        "spectrum_data[CTR50B3150]": "-",
+        "spectrum_data[CTR50B5000]": "-",
+        "spectrum_data[CTR]": "-",
+        "spectrum_data[C]": "-",
+        "spectrum_data[EINZAHLWERT]": "49"
+    },
+    "measurement_data": {
+        "measurement_data[F0050]": "53.8",
+        "measurement_data[F0063]": "51.2",
+        "measurement_data[F0080]": "52.5",
+        "measurement_data[F0100]": "54.9",
+        "measurement_data[F0125]": "55.2",
+        "measurement_data[F0160]": "57.7",
+        "measurement_data[F0200]": "54.7",
+        "measurement_data[F0250]": "53.1",
+        "measurement_data[F0315]": "53.4",
+        "measurement_data[F0400]": "54.1",
+        "measurement_data[F0500]": "51.2",
+        "measurement_data[F0630]": "47.1",
+        "measurement_data[F0800]": "41.5",
+        "measurement_data[F1000]": "35.7",
+        "measurement_data[F1250]": "32.6",
+        "measurement_data[F1600]": "30.0",
+        "measurement_data[F2000]": "21.9",
+        "measurement_data[F2500]": "14.1",
+        "measurement_data[F3150]": "11.1",
+        "measurement_data[F4000]": "10.7",
+        "measurement_data[F5000]": "10.2"
+    }
+}
