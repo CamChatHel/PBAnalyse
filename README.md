@@ -2,7 +2,7 @@
  **_im Rahmen einer Studienarbeit von Anna-Magdalena Danner_** 
 _Datum: 24.07.2025_
 
-**Python-Projekt: Tool_Pruefbericht_DatenV2.0**   
+**Python-Projekt: Tool_Pruefbericht_Daten_V2.0**   
 
 > Dieses Werkzeug ermöglicht eine direkte Datenübertragung aus Prüfprotokollen von Bauakustikmessungen der D-A-CH-Region.  Relevante Daten werden dabei automatisch extrahiert, standardisiert und gespeichert, ohne dass weitere manuelle Eingaben erforderlich sind. Zusätzlich wird ein KI-Modul integriert, welches komplexe Dateninhalte interpretiert und entsprechenden Datensätzen zuordnet.   
   
