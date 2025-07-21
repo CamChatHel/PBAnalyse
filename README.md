@@ -14,11 +14,11 @@ _Datum: 24.07.2025_
 **3.** Installieren Sie Tesseract OCR ([tesseract](https://github.com/tesseract-ocr/tesseract/releases/)) und fügen Sie den Pfad `C:\Pfad\zu\Tesseract-OCR` zu den Systemumgebungsvariablen (path) hinzu. 
 Stellen Sie sicher, dass sich im Verzeichnis *tessdata* die Datei für die deutsche Sprache *deu.traineddata* befindet. Falls die Datei fehlt, installieren Sie diese manuell ([deu](https://github.com/tesseract-ocr/tessdata/blob/main/deu.traineddata)) und speichern Sie die Datei im Verzeichnis *tessdata*. 
 
-**4.**  Entpacken Sie das komprimierte Projekt *'Tool_Pruefbericht_Daten_V2.0.zip'* in einem Verzeichnis Ihrer Wahl.
+**4.**  Laden Sie das Projekt *'Tool_Pruefbericht_Daten_V2.0'* in einem Verzeichnis Ihrer Wahl.
  
 **5.** Öffnen Sie ein Terminal, z.B. PowerShell von Windows und navigieren Sie zu dem Projektverzeichnis:  
 ```bash  
-	cd Pfad\zu\WS_24-25_Tool_Pruefbericht_Daten
+	cd Pfad\zu\Tool_Pruefbericht_Daten_V2.0
 ```  
 **6.** Erstellen Sie eine virtuelle Umgebung und aktivieren Sie diese:  
 ```bash  
@@ -42,7 +42,7 @@ Folgen Sie den angezeigten Schritten bis *'Generate API Key'*.
 
 **4.** Fügen Sie Ihre Zahlungsinformationen hinzu.  
 
-**5.** Ersetzen Sie in der Datei `key.env` im Hauptverzeichnis des Projekts *'YOUR_API_KEY'* durch Ihren persönlichen API-Schlüssel:  
+**5.** Erstellen Sie im Hauptverzeichnis des Projekts eine Datei  `key.env` und fügen Ihren persönlichen API-Schlüssel ein:  
 ```bash
 	API_KEY="YOUR_API_KEY" 
 ```
