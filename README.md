@@ -46,11 +46,16 @@ Folgen Sie den angezeigten Schritten bis *'Generate API Key'*.
 ```bash
 	API_KEY="YOUR_API_KEY" 
 ```
-**6.** Führen Sie im Terminal des Projektverzeichnisses den Befehl aus:  
+**6.** Erstellen Sie im Hauptverzeichnis des Projekts eine Datei  `key_web.env` und fügen einen beliebigen persönlichen API-Schlüssel ein:  
+```bash
+	WEB_KEY = 'YOUR_WEB_KEY'
+```
+
+**7.** Führen Sie im Terminal des Projektverzeichnisses den Befehl aus:  
 ```bash  
 	python A_frontend/web.py
 ```  
-**7.** Es startet ein lokaler Server und ein Link wird in der Konsole angezeigt.  
+**8.** Es startet ein lokaler Server und ein Link wird in der Konsole angezeigt.  
     Öffnen Sie den Link mit *strg + klick* in einem Webbrowser, um die Anwendung zu nutzen. 
     
-**8.** Laden Sie in der Anwendung ein Prüfprotokoll und bestätigen Sie den Upload. Sie werden zur Datenüberprüfung weitergeleitet.   
+**9.** Laden Sie in der Anwendung ein Prüfprotokoll und bestätigen Sie den Upload. Sie werden zur Datenüberprüfung weitergeleitet.   
