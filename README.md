@@ -1,10 +1,12 @@
 ## Weiterentwicklung eines Werkzeugs <br>zur Extraktion und Verarbeitung bauakustischer Daten<br>  aus Prüfberichten der D-A-CH-Region
- **_im Rahmen einer Studienarbeit von Anna-Magdalena Danner_** 
+ **_im Rahmen einer Studienarbeit im Gebäudphysikmaster der TH Rosenheim
+ von Anna-Magdalena Danner_** 
+
 _Datum: 24.07.2025_
 
 **Python-Projekt: Tool_Pruefbericht_Daten_V2.0**   
 
-> Dieses Werkzeug ermöglicht eine direkte Datenübertragung aus Prüfprotokollen von Bauakustikmessungen der D-A-CH-Region. Relevante Daten werden dabei automatisch extrahiert, standardisiert und gespeichert, ohne dass weitere manuelle Eingaben erforderlich sind. Zusätzlich wird ein KI-Modul integriert, welches komplexe Dateninhalte interpretiert und entsprechenden Datensätzen zuordnet.   
+> Dieses Werkzeug ermöglicht eine direkte Datenübertragung aus Prüfprotokollen von Bauakustikmessungen der D-A-CH-Region. Relevante Daten werden dabei automatisch extrahiert, standardisiert und gespeichert, manuelle Eingaben sind über eine Weboberfläche möglich. Zusätzlich wird ein KI-Modul integriert, welches komplexe Dateninhalte interpretiert und entsprechenden Datensätzen zuordnet.   
   
 ## Installation  
  **1.** Stellen Sie sicher, dass Python in der Version 3.12.8 ([Python](https://www.python.org/downloads/release/python-3128/)) und pip ([pip](https://pip.pypa.io/en/stable/installation/)) auf Ihrem Gerät installiert sind.
