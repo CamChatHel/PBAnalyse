@@ -1,5 +1,5 @@
 ## Weiterentwicklung eines Werkzeugs <br>zur Extraktion und Verarbeitung bauakustischer Daten<br>  aus Prüfberichten der D-A-CH-Region
- **_im Rahmen einer Studienarbeit im Gebäudphysikmaster der TH Rosenheim
+ **_im Rahmen einer Studienarbeit im Gebäudphysikmaster der TH Rosenheim<br>
  von Anna-Magdalena Danner_** 
 
 _Datum: 24.07.2025_
