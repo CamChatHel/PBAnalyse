@@ -48,7 +48,7 @@ Folgen Sie den angezeigten Schritten bis *'Generate API Key'*.
 ```bash
 	API_KEY="YOUR_API_KEY" 
 ```
-**6.** Erstellen Sie im Hauptverzeichnis des Projekts eine Datei  `key_web.env` und fügen einen beliebigen persönlichen API-Schlüssel ein:  
+**6.** Erstellen Sie im Hauptverzeichnis des Projekts eine Datei  `key_web.env` und fügen einen benutzerdefinierten persönlichen API-Schlüssel ein:  
 ```bash
 	WEB_KEY = 'YOUR_WEB_KEY'
 ```
